@@ -12,6 +12,8 @@ class SearchViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("Sesuatu")
+        //Jenny here
         // Do any additional setup after loading the view.
     }
     
