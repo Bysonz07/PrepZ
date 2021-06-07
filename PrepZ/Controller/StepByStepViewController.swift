@@ -11,7 +11,7 @@ class StepByStepViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("Hey Tiya was here")
         // Do any additional setup after loading the view.
     }
     
