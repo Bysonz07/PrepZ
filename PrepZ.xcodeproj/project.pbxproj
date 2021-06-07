@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */; };
+		BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */; };
 		BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706B2669FE8500DFF9BE /* AppDelegate.swift */; };
 		BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */; };
 		BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BF6770682669FE8400DFF9BE /* PrepZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF67706B2669FE8500DFF9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 		BF6770AD266A0B0200DFF9BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */,
+				BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -310,11 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */,
+				BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */,
 				BF6770AC266A0AD800DFF9BE /* StepByStepViewController.swift in Sources */,
 				BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */,
 				BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */,
 				BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */,
 				BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */,
+				BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */,
 				BF6770A2266A046C00DFF9BE /* CategoriesViewController.swift in Sources */,
 				BF6770A6266A08E100DFF9BE /* PreviewViewController.swift in Sources */,
 			);
