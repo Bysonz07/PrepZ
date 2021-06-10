@@ -7,11 +7,17 @@
 
 import UIKit
 
-class PreviewViewController: UIViewController {
-
+class PreviewViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
+    
+    
+    @IBOutlet weak var howToOutlet: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //Setup collectionView
+        howToOutlet.dataSource = self
+        howToOutlet.delegate = self
+        howToOutlet.register(CategoriesCollectionViewCell.nib(), forCellWithReuseIdentifier: CategoriesCollectionViewCell.identifier)
         // Do any additional setup after loading the view.
     }
     
@@ -25,5 +31,17 @@ class PreviewViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CategoriesCollectionViewCell.identifier, for: indexPath) as! CategoriesCollectionViewCell
+        cell.configure(named: "Meat", with: UIImage(named: "meat")!)
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "previewToStepByStep", sender: nil)
+    }
 }
