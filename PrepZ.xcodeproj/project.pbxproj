@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB675682671CE9600D42899 /* RVImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB675672671CE9600D42899 /* RVImageCollectionViewCell.swift */; };
 		BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */; };
 		BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */; };
 		BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706B2669FE8500DFF9BE /* AppDelegate.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB675672671CE9600D42899 /* RVImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RVImageCollectionViewCell.swift; path = ../../../LatihanMVC/LatihanMVC/RVImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BF6770682669FE8400DFF9BE /* PrepZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +180,7 @@
 				BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */,
 				BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */,
 				BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */,
+				2DB675672671CE9600D42899 /* RVImageCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */,
 				BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */,
 				BF6770A2266A046C00DFF9BE /* CategoriesViewController.swift in Sources */,
+				2DB675682671CE9600D42899 /* RVImageCollectionViewCell.swift in Sources */,
 				BF6770A6266A08E100DFF9BE /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
 				INFOPLIST_FILE = PrepZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,6 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
 				INFOPLIST_FILE = PrepZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
