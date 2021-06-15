@@ -12,6 +12,7 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
     @IBOutlet weak var howToOutlet: UICollectionView!
     
     let previewCollectionCellId = "PreviewCollectionViewCell"
+    let sectionHeaderViewid = "SectionHeaderView"
     var meats = [Meats]()
     
     override func viewDidLoad() {
@@ -26,7 +27,7 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
         
         for _ in 1...4 {
             let meat = Meats()
-            meat?.title = "Meat meat meat meat meat meat meat meat meat meat meat meat meat meat meat"
+            meat?.title = "Meat meat meat meat meat meat meat/n meat meat meat meat meat meat meat meat"
             meat?.desc = "How to prepare meat"
             meats.append(meat!)
         }
@@ -55,7 +56,7 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
     
     
     func collectionView(_ collectionview: UICollectionView, layout collectionViewLayout:UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 400, height: 123)
+        return CGSize(width: 390, height: 123)
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -66,6 +67,14 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
         cell.descriptionLabel.text = meat.desc
         
         return cell
+    }
+    
+    // SectionHeader View
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let sectionHeaderView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: sectionHeaderViewid, for: indexPath) as! SectionHeaderView
+        
+        
+        return sectionHeaderView
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
