@@ -102,7 +102,6 @@
                                     </subviews>
                                     <connections>
                                         <outlet property="foodSafetyLabel" destination="cx0-k3-bZV" id="H40-oK-Pp0"/>
-                                        <outlet property="headerImage" destination="raN-OI-JdU" id="6Up-bi-8ub"/>
                                         <outlet property="headerImageView" destination="raN-OI-JdU" id="ZVS-MY-GkC"/>
                                         <outlet property="howToCategoryLabel" destination="pte-J8-p1S" id="38T-gl-wjV"/>
                                         <outlet property="nutritionLabel" destination="PHL-wG-VXB" id="whY-Fv-NuA"/>

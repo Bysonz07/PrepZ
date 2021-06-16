@@ -15,10 +15,24 @@ class SectionHeaderView : UICollectionReusableView {
     @IBOutlet weak var thingsToConcernLabel: UILabel!
     @IBOutlet weak var howToCategoryLabel: UILabel!
     
+    static let identifier = "HeaderCell"
+    
     var headerImage: UIImage!
     var nutritionDesc: String!
     var foodSafetyDesc: String!
     var thingsToConcernDesc: String!
-    var howToCategory: String!
+    var howToCategory: UILabel = {
+        let howtolabel = UILabel()
+        howtolabel.text = "Lorem Ipsum"
+        return howtolabel
+    }()
     
+    public func configure() {
+        addSubview(howToCategory)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        howToCategory.frame = bounds
+    }
 }

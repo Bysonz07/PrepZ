@@ -23,6 +23,7 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
 //        howToOutlet.register(CategoriesCollectionViewCell.nib(), forCellWithReuseIdentifier: CategoriesCollectionViewCell.identifier)
         // Do any additional setup after loading the view.
         let nibCell = UINib(nibName: previewCollectionCellId, bundle: nil)
+        
         howToOutlet.register(nibCell, forCellWithReuseIdentifier: previewCollectionCellId)
         
         for _ in 1...4 {
@@ -72,7 +73,11 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
     // SectionHeader View
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let sectionHeaderView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: sectionHeaderViewid, for: indexPath) as! SectionHeaderView
-        
+        sectionHeaderView.headerImageView.image = UIImage(named: "meat")
+        sectionHeaderView.foodSafetyLabel.text = "Lorem Impsum"
+        sectionHeaderView.howToCategoryLabel.text = "Lorem Impsum"
+        sectionHeaderView.nutritionLabel.text = "Lorem ipsum"
+        sectionHeaderView.thingsToConcernLabel.text = "Lorem ipsum"
         
         return sectionHeaderView
     }
