@@ -66,7 +66,7 @@ class StepByStepViewController: UIViewController{
 //        // Disable record button.
 //        micButton.setTitle("Not available.", for: .normal)
 //        micButton.isEnabled = false
-    }
+//    }
 
 // MARK: - Speech recognition
     
@@ -200,7 +200,7 @@ class StepByStepViewController: UIViewController{
 //        // Disable the record button.
 //        micButton.isEnabled = false
 //        micButton.setTitle("Speech recognition not available.", for: .normal)
-//    }
+    }
 //
 }
     

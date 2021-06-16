@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B12678AF5A00BDEDA5 /* VoiceController.swift */; };
 		914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914428B32678DC7500BDEDA5 /* voiceControl.storyboard */; };
+		914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */; };
 		91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A77117267755EB00314D55 /* StepByStepSlide.swift */; };
 		91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */; };
 		BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		914428B12678AF5A00BDEDA5 /* VoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceController.swift; sourceTree = "<group>"; };
 		914428B32678DC7500BDEDA5 /* voiceControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = voiceControl.storyboard; sourceTree = "<group>"; };
+		914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPreviewViewController.swift; sourceTree = "<group>"; };
 		91A77117267755EB00314D55 /* StepByStepSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepSlide.swift; sourceTree = "<group>"; };
 		91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -112,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		914428B5267A648E00BDEDA5 /* StepByStep */ = {
+			isa = PBXGroup;
+			children = (
+				BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */,
+				914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */,
+			);
+			path = StepByStep;
+			sourceTree = "<group>";
+		};
 		91A7711926775F4E00314D55 /* StepByStep */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,9 +213,9 @@
 		BF6770AF266A0B0F00DFF9BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				914428B5267A648E00BDEDA5 /* StepByStep */,
 				BF6770B0266A0EBD00DFF9BE /* SearchViewController.swift */,
 				BF6770A1266A046C00DFF9BE /* CategoriesViewController.swift */,
-				BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */,
 				BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */,
 				BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */,
 				914428B12678AF5A00BDEDA5 /* VoiceController.swift */,
@@ -373,6 +384,7 @@
 				BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */,
 				91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */,
 				BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */,
+				914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */,
 				91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */,
 				BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */,
 				BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */,
