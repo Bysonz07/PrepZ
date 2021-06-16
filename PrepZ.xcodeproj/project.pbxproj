@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B12678AF5A00BDEDA5 /* VoiceController.swift */; };
+		914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914428B32678DC7500BDEDA5 /* voiceControl.storyboard */; };
 		91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A77117267755EB00314D55 /* StepByStepSlide.swift */; };
 		91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */; };
 		BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		914428B12678AF5A00BDEDA5 /* VoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceController.swift; sourceTree = "<group>"; };
+		914428B32678DC7500BDEDA5 /* voiceControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = voiceControl.storyboard; sourceTree = "<group>"; };
 		91A77117267755EB00314D55 /* StepByStepSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepSlide.swift; sourceTree = "<group>"; };
 		91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 			children = (
 				BF6770A7266A090B00DFF9BE /* StepByStep.storyboard */,
 				91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */,
+				914428B32678DC7500BDEDA5 /* voiceControl.storyboard */,
 			);
 			path = StepByStep;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 				BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */,
 				BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */,
 				BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */,
+				914428B12678AF5A00BDEDA5 /* VoiceController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 				BF6770A8266A090B00DFF9BE /* StepByStep.storyboard in Resources */,
 				BFFD26D42671B440006F3A32 /* RecentlyCollectionViewCell.xib in Resources */,
 				BFBD2D572671AC6200481A35 /* CategoriesCollectionViewCell.xib in Resources */,
+				914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */,
 				BF6770A0266A044900DFF9BE /* Categories.storyboard in Resources */,
 				BF6770732669FE8500DFF9BE /* Main.storyboard in Resources */,
 			);
@@ -373,6 +380,7 @@
 				BFBD2D562671AC6200481A35 /* CategoriesCollectionViewCell.swift in Sources */,
 				BF6770A2266A046C00DFF9BE /* CategoriesViewController.swift in Sources */,
 				BF6770A6266A08E100DFF9BE /* PreviewViewController.swift in Sources */,
+				914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
