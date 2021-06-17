@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Voice View Controller-->
         <scene sceneID="vSx-Na-6UX">
             <objects>
-                <viewController id="Zk1-al-bCT" sceneMemberID="viewController">
+                <viewController id="Zk1-al-bCT" customClass="VoiceViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XsF-kC-9b1">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,6 +65,9 @@
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.79470306629999998" green="0.56189358229999997" blue="0.49018019439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="cancelTapped:" destination="Zk1-al-bCT" eventType="touchUpInside" id="HcT-TB-fxE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDf-1c-mIr">
                                 <rect key="frame" x="63" y="693" width="264" height="44"/>
@@ -79,12 +82,19 @@
                                         <integer key="value" value="14"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="prepziTapped:" destination="Zk1-al-bCT" eventType="touchUpInside" id="T68-0b-JWR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tCI-AJ-JKG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="fYa-cf-ETy"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="O2Y-wE-9A9" id="ub6-HL-iSD"/>
+                        <outlet property="prepziButton" destination="CDf-1c-mIr" id="iuJ-wh-9qL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="629-N6-Gln" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,11 +203,11 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wu-zD-01S">
-                                <rect key="frame" x="295" y="417" width="66" height="22"/>
+                                <rect key="frame" x="295" y="372" width="66" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.79470306629999998" green="0.56189358229999997" blue="0.49018019439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
-                                    <imageReference key="image" image="mic.fill" catalog="system" symbolScale="large"/>
+                                    <imageReference key="image" image="chevron.right.circle.fill" catalog="system" symbolScale="large"/>
                                 </state>
                                 <connections>
                                     <action selector="micButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7vx-NG-06i"/>
@@ -284,17 +294,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHm-BX-D70">
-                                <rect key="frame" x="22" y="554" width="44" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What you need" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHm-BX-D70">
+                                <rect key="frame" x="22" y="554" width="119" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Meb-us-tXP">
-                                <rect key="frame" x="22" y="592" width="31" height="15"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -315,11 +318,25 @@
                                     <segue destination="Y6W-OH-hqX" kind="show" id="uSP-90-yUZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Meb-us-tXP">
+                                <rect key="frame" x="22" y="583" width="352" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mCw-O6-kha"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="k9g-aS-WB4"/>
+                    <connections>
+                        <outlet property="howToTitleLabel" destination="e7Y-ry-bck" id="fhR-Nz-khD"/>
+                        <outlet property="previewImage" destination="gsM-4x-fmt" id="k1w-OL-Pc2"/>
+                        <outlet property="timeLabel" destination="dDz-YN-xMK" id="uN2-Z8-OzE"/>
+                        <outlet property="toolsLabel" destination="Meb-us-tXP" id="Lkq-rC-ZsW"/>
+                        <outlet property="voiceNavigateButton" destination="9Hs-Qm-fmS" id="HeQ-Hw-TRx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c5j-UM-DBC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -346,6 +363,7 @@
     </scenes>
     <resources>
         <image name="brining chicken" width="391" height="240"/>
+        <image name="chevron.right.circle.fill" catalog="system" width="128" height="121"/>
         <image name="mic.circle.fill" catalog="system" width="128" height="121"/>
         <image name="mic.fill" catalog="system" width="108" height="128"/>
         <image name="stopwatch" catalog="system" width="121" height="128"/>

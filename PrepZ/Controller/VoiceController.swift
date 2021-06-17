@@ -12,16 +12,16 @@ import Speech
 
 class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
     
-    @IBOutlet weak var recordButton: UIButton!
-    @IBOutlet weak var spokenLabel: UILabel!
+//    @IBOutlet weak var recordButton: UIButton!
+//    @IBOutlet weak var spokenLabel: UILabel!
     
-    public private(set) var isRecording = false
+    var isRecording = false
 
-    private var audioEngine: AVAudioEngine!
-    private var inputNode: AVAudioInputNode!
-    private var audioSession: AVAudioSession!
+    var audioEngine: AVAudioEngine!
+    var inputNode: AVAudioInputNode!
+    var audioSession: AVAudioSession!
 
-    private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
+    var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
     
     // MARK: - View controller life cycle
     override func viewDidLoad() {
@@ -33,25 +33,25 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
     }
     
     // MARK: - User interface
-    @IBAction func recordButtonTapped(_ sender: UIButton) {
-        if isRecording { stopRecording() } else { startRecording() }
-        isRecording.toggle()
-        sender.setTitle((isRecording ? "Stop" : "Start") + " recording", for: .normal)
-    }
-
-    private func handleError(withMessage message: String) {
+//    @IBAction func recordButtonTapped(_ sender: UIButton) {
+//        if isRecording { stopRecording() } else { startRecording() }
+//        isRecording.toggle()
+//        sender.setTitle((isRecording ? "Stop" : "Start") + " recording", for: .normal)
+//    }
+//
+    func handleError(withMessage message: String) {
         // Present an alert.
         let ac = UIAlertController(title: "An error occured", message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default))
         present(ac, animated: true)
 
-        // Disable record button.
-        recordButton.setTitle("Not available.", for: .normal)
-        recordButton.isEnabled = false
+//        // Disable record button.
+//        recordButton.setTitle("Not available.", for: .normal)
+//        recordButton.isEnabled = false
     }
     
     // MARK: - Speech recognition
-    private func startRecording() {
+    func startRecording() {
         // MARK: 1. Create a recognizer.
         guard let recognizer = SFSpeechRecognizer(), recognizer.isAvailable else {
             handleError(withMessage: "Speech recognizer not available.")
@@ -84,20 +84,20 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
             }
             
             
-            print("last string: ", lastString)
-            
-            if (lastString == "next"){
-                self.spokenLabel.text = "next"
-
-            }
-            if (lastString == "back"){
-                self.spokenLabel.text = "previous"
-            }
-            if (lastString == "speak"){
-                self.spokenLabel.text = "speak"
+//            print("last string: ", lastString)
+//
+//            if (lastString == "next"){
+//                self.spokenLabel.text = "next"
+//
+//            }
+//            if (lastString == "back"){
+//                self.spokenLabel.text = "previous"
+//            }
+//            if (lastString == "speak"){
+//                self.spokenLabel.text = "speak"
 //                let speakUtterance = AVSpeechUtterance(string: "This will read the current step")
 //                self.synth.speak(speakUtterance)
-            }
+//            }
             
             if result.isFinal {
                 DispatchQueue.main.async {
@@ -132,7 +132,7 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
         }
     }
 
-    private func updateUI(withResult result: SFSpeechRecognitionResult) {
+    func updateUI(withResult result: SFSpeechRecognitionResult) {
         // Update the UI: Present an alert.
         let ac = UIAlertController(title: "You said:",
                                    message: result.bestTranscription.formattedString,
@@ -141,7 +141,7 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
         self.present(ac, animated: true)
     }
 
-    private func stopRecording() {
+    func stopRecording() {
         // End the recognition request.
         recognitionRequest?.endAudio()
         recognitionRequest = nil
@@ -155,7 +155,7 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
     }
 
     // MARK: - Privacy
-    private func checkPermissions() {
+    func checkPermissions() {
         SFSpeechRecognizer.requestAuthorization { authStatus in
             DispatchQueue.main.async {
                 switch authStatus {
@@ -166,7 +166,7 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
         }
     }
 
-    private func handlePermissionFailed() {
+    func handlePermissionFailed() {
         // Present an alert asking the user to change their settings.
         let ac = UIAlertController(title: "This app must have access to speech recognition to work.",
                                    message: "Please consider updating your settings.",
@@ -179,7 +179,11 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
         present(ac, animated: true)
 
         // Disable the record button.
-        recordButton.isEnabled = false
-        recordButton.setTitle("Speech recognition not available.", for: .normal)
+//        recordButton.isEnabled = false
+//        recordButton.setTitle("Speech recognition not available.", for: .normal)
     }
+    
+//    public func setIsRecording(setter: Bool){
+//        self.isRecording = setter
+//    }
 }
