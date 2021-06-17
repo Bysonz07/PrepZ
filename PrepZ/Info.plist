@@ -34,7 +34,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>StepByStep</string>
 				</dict>
 			</array>
 		</dict>
@@ -62,5 +62,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>&quot;We need access to the microphone to hear what you have to say.&quot;</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>&quot;We need access to the microphone to hear what you have to say.&quot;</string>
 </dict>
 </plist>
