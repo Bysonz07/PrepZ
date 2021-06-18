@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4079B1267B7FA100A93D62 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4079B0267B7FA100A93D62 /* OnBoardingCollectionViewCell.swift */; };
+		AC6BFF6A267B166B00163A3A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF69267B166B00163A3A /* UIView+Extension.swift */; };
+		AC6BFF72267B1C3700163A3A /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BFF71267B1C3700163A3A /* OnBoardingSlide.swift */; };
+		AC7EC2462679B20500B7B975 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7EC2452679B20500B7B975 /* OnBoarding.storyboard */; };
+		AC7EC25E2679BBD500B7B975 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EC25D2679BBD500B7B975 /* OnBoardingViewController.swift */; };
 		914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B12678AF5A00BDEDA5 /* VoiceController.swift */; };
 		914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914428B32678DC7500BDEDA5 /* voiceControl.storyboard */; };
 		914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */; };
@@ -55,6 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC4079B0267B7FA100A93D62 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC6BFF69267B166B00163A3A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		AC6BFF71267B1C3700163A3A /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		AC7EC2452679B20500B7B975 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		AC7EC25D2679BBD500B7B975 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		914428B12678AF5A00BDEDA5 /* VoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceController.swift; sourceTree = "<group>"; };
 		914428B32678DC7500BDEDA5 /* voiceControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = voiceControl.storyboard; sourceTree = "<group>"; };
 		914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPreviewViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +126,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC6BFF68267B165500163A3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BFF69267B166B00163A3A /* UIView+Extension.swift */,
+			);
+			path = Extensions;
 		914428B5267A648E00BDEDA5 /* StepByStep Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +177,7 @@
 			children = (
 				BF67706B2669FE8500DFF9BE /* AppDelegate.swift */,
 				BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */,
+				AC6BFF68267B165500163A3A /* Extensions */,
 				BF6770AD266A0B0200DFF9BE /* Model */,
 				BF6770AE266A0B0800DFF9BE /* View */,
 				BF6770AF266A0B0F00DFF9BE /* Controller */,
@@ -195,7 +212,9 @@
 			children = (
 				BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */,
 				BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */,
+				AC6BFF71267B1C3700163A3A /* OnBoardingSlide.swift */,
 				91A77117267755EB00314D55 /* StepByStepSlide.swift */,
+
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,6 +226,7 @@
 				BF6770A3266A08D500DFF9BE /* Preview.storyboard */,
 				BF6770712669FE8500DFF9BE /* Main.storyboard */,
 				BF67709E266A044900DFF9BE /* Categories.storyboard */,
+				AC7EC2452679B20500B7B975 /* OnBoarding.storyboard */,
 				BFFD26D52671B449006F3A32 /* RecentlyViewed */,
 				BFBD2D582671AC6900481A35 /* Categories Cell */,
 			);
@@ -221,6 +241,8 @@
 				BF6770A1266A046C00DFF9BE /* CategoriesViewController.swift */,
 				BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */,
 				BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */,
+				AC7EC25D2679BBD500B7B975 /* OnBoardingViewController.swift */,
+				AC4079B0267B7FA100A93D62 /* OnBoardingCollectionViewCell.swift */,
 				914428B12678AF5A00BDEDA5 /* VoiceController.swift */,
 			);
 			path = Controller;
@@ -356,6 +378,7 @@
 				914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */,
 				BF6770A0266A044900DFF9BE /* Categories.storyboard in Resources */,
 				BF6770732669FE8500DFF9BE /* Main.storyboard in Resources */,
+				AC7EC2462679B20500B7B975 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +406,15 @@
 				BFFD26D32671B440006F3A32 /* RecentlyCollectionViewCell.swift in Sources */,
 				BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */,
 				BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */,
+				AC4079B1267B7FA100A93D62 /* OnBoardingCollectionViewCell.swift in Sources */,
 				BF6770AC266A0AD800DFF9BE /* StepByStepViewController.swift in Sources */,
+				AC6BFF72267B1C3700163A3A /* OnBoardingSlide.swift in Sources */,
 				BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */,
 				91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */,
 				BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */,
+				AC7EC25E2679BBD500B7B975 /* OnBoardingViewController.swift in Sources */,
+				BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */,
+				AC6BFF6A267B166B00163A3A /* UIView+Extension.swift in Sources */,
 				914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */,
 				91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */,
 				BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */,
@@ -583,6 +611,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
 				INFOPLIST_FILE = PrepZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +631,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BC2RKUHZ7;
 				INFOPLIST_FILE = PrepZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
