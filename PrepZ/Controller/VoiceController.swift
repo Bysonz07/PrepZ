@@ -22,10 +22,13 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
     var audioSession: AVAudioSession!
 
     var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
+    var currentPage = 0
+    let vc = StepByStepViewController()
     
     // MARK: - View controller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     override public func viewDidAppear(_ animated: Bool) {
@@ -62,7 +65,7 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
         recognitionRequest!.shouldReportPartialResults = true
 
-        recognizer.recognitionTask(with: recognitionRequest!) { (result, error) in
+        recognizer.recognitionTask(with: recognitionRequest!) { [self] (result, error) in
             guard error == nil else { self.handleError(withMessage: error!.localizedDescription); return }
             guard let result = result else { return }
 
@@ -78,17 +81,26 @@ class VoiceControl: UIViewController, SFSpeechRecognizerDelegate {
 
             for segment in result.bestTranscription.segments{
                 let indexTo = bestString.index(bestString.startIndex, offsetBy: segment.substringRange.location)
-                print("segment: ", indexTo)
+//                print("segment: ", indexTo)
                 lastString = String(bestString[indexTo...])
                 lastString = lastString.lowercased()
+                
             }
             
             
 //            print("last string: ", lastString)
 //
 //            if (lastString == "next"){
-//                self.spokenLabel.text = "next"
-//
+////                self.spokenLabel.text = "next"
+//                vc.lastString = lastString
+//                let width = vc.collectionView.frame.size.width
+//                print(width)
+//                self.currentPage = Int(vc.collectionView.contentOffset.x / width)
+//                if (self.currentPage != vc.slides.count - 1){
+//                    self.currentPage += 1
+//                    vc.collectionView.setContentOffset(CGPoint(x: Int(vc.collectionView.frame.size.width) * self.currentPage, y: 0), animated: true)
+//                }
+
 //            }
 //            if (lastString == "back"){
 //                self.spokenLabel.text = "previous"

@@ -27,6 +27,7 @@ class StepPreviewViewController: VoiceControl {
         imageName = "brining chicken"
         titleHowTo = "Brining Chicken"
         timeNeed = "1 Day"
+        // string separated with \n
         tools = "- A large Stock Pot\n- A whole chicken\n"
         
         // update ui dari data sender
@@ -34,13 +35,6 @@ class StepPreviewViewController: VoiceControl {
         howToTitleLabel.text = titleHowTo
         timeLabel.text = timeNeed
         toolsLabel.text = tools
-        
-        
-        
-        
-        
-        
-        // Do any additional setup after loading the view.
     }
     
 

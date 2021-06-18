@@ -35,12 +35,15 @@ class VoiceViewController: VoiceControl {
     }
     */
     @IBAction func prepziTapped(_ sender: Any) {
-        isRecording = true
+        isRecording = false
         //trigger speech recog
-//        if isRecording { stopRecording() } else { startRecording() }
+        if isRecording { stopRecording() } else { startRecording() }
         navigationController?.popViewController(animated: true)
         dismiss(animated: true, completion: nil)
         
+        let ac = UIAlertController(title: "PrepZ", message: "Voice command turned on", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        present(ac, animated: true)
         // update button step by step preview jadi "voice turned on"
         
         // implement public setter untuk di vc selanjurnya
