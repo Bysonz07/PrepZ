@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "BeefTrimming_Step1_Note.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "BeefTrimming_Step1_Note@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "BeefTrimming_Step1_Note@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

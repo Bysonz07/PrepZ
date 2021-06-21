@@ -18,10 +18,9 @@
 		BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706B2669FE8500DFF9BE /* AppDelegate.swift */; };
 		BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */; };
 		BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */; };
-		BF6770732669FE8500DFF9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6770712669FE8500DFF9BE /* Main.storyboard */; };
+		BF6770732669FE8500DFF9BE /* AnotherMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6770712669FE8500DFF9BE /* AnotherMain.storyboard */; };
 		BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF6770742669FE8500DFF9BE /* PrepZ.xcdatamodeld */; };
 		BF6770782669FE8500DFF9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6770772669FE8500DFF9BE /* Assets.xcassets */; };
-		BF67707B2669FE8500DFF9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6770792669FE8500DFF9BE /* LaunchScreen.storyboard */; };
 		BF6770862669FE8500DFF9BE /* PrepZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770852669FE8500DFF9BE /* PrepZTests.swift */; };
 		BF6770912669FE8500DFF9BE /* PrepZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770902669FE8500DFF9BE /* PrepZUITests.swift */; };
 		BF6770A0266A044900DFF9BE /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF67709E266A044900DFF9BE /* Categories.storyboard */; };
@@ -31,10 +30,90 @@
 		BF6770A8266A090B00DFF9BE /* StepByStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6770A7266A090B00DFF9BE /* StepByStep.storyboard */; };
 		BF6770AC266A0AD800DFF9BE /* StepByStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */; };
 		BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770B0266A0EBD00DFF9BE /* SearchViewController.swift */; };
+		BF76DAA12680855200B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA592680853F00B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 */; };
+		BF76DAA22680855200B10706 /* Apple_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA5A2680853F00B10706 /* Apple_Step4.mp4 */; };
+		BF76DAA32680855200B10706 /* Apple_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA5B2680853F00B10706 /* Apple_Step1.mp4 */; };
+		BF76DAA42680855200B10706 /* Apple_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA5C2680853F00B10706 /* Apple_Step2.mp4 */; };
+		BF76DAA52680855200B10706 /* Apple_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA5D2680853F00B10706 /* Apple_Step3.mp4 */; };
+		BF76DAA62680855200B10706 /* How to Preserve Avocados_480p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA5F2680853F00B10706 /* How to Preserve Avocados_480p.mp4 */; };
+		BF76DAA72680855200B10706 /* Avocado_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA602680853F00B10706 /* Avocado_Step4.mp4 */; };
+		BF76DAA82680855200B10706 /* Avocado_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA612680853F00B10706 /* Avocado_Step3.mp4 */; };
+		BF76DAA92680855200B10706 /* Avocado_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA622680853F00B10706 /* Avocado_Step2.mp4 */; };
+		BF76DAAA2680855200B10706 /* Avocado_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA632680853F00B10706 /* Avocado_Step1.mp4 */; };
+		BF76DAAB2680855200B10706 /* Watermelon_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA652680853F00B10706 /* Watermelon_Step2.mp4 */; };
+		BF76DAAC2680855200B10706 /* Watermelon_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA662680853F00B10706 /* Watermelon_Step3.mp4 */; };
+		BF76DAAD2680855200B10706 /* Watermelon_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA672680853F00B10706 /* Watermelon_Step1.mp4 */; };
+		BF76DAAE2680855200B10706 /* Watermelon_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA682680853F00B10706 /* Watermelon_Step4.mp4 */; };
+		BF76DAAF2680855200B10706 /* How to Cut a Watermelon  eTundra_480p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA692680853F00B10706 /* How to Cut a Watermelon  eTundra_480p.mp4 */; };
+		BF76DAB02680855200B10706 /* How To Cut And Dice A Mango_480p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA6B2680853F00B10706 /* How To Cut And Dice A Mango_480p.mp4 */; };
+		BF76DAB12680855200B10706 /* Mango_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA6C2680853F00B10706 /* Mango_Step4.mp4 */; };
+		BF76DAB22680855200B10706 /* Mango_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA6D2680853F00B10706 /* Mango_Step1.mp4 */; };
+		BF76DAB32680855200B10706 /* Mango_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA6E2680853F00B10706 /* Mango_Step3.mp4 */; };
+		BF76DAB42680855200B10706 /* Mango_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA6F2680853F00B10706 /* Mango_Step2.mp4 */; };
+		BF76DAB52680855200B10706 /* spinach_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA722680854000B10706 /* spinach_Step3.mp4 */; };
+		BF76DAB62680855200B10706 /* spinach_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA732680854000B10706 /* spinach_Step2.mp4 */; };
+		BF76DAB72680855200B10706 /* spinach_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA742680854000B10706 /* spinach_Step1.mp4 */; };
+		BF76DAB82680855200B10706 /* bokChoy_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA762680854000B10706 /* bokChoy_Step2.mp4 */; };
+		BF76DAB92680855200B10706 /* bokChoy_Step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA772680854000B10706 /* bokChoy_Step5.mp4 */; };
+		BF76DABA2680855200B10706 /* bokChoy_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA782680854000B10706 /* bokChoy_Step4.mp4 */; };
+		BF76DABB2680855200B10706 /* BeefDefrost_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA7B2680855000B10706 /* BeefDefrost_Step1.mp4 */; };
+		BF76DABC2680855200B10706 /* BeefDefrost_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA7C2680855000B10706 /* BeefDefrost_Step2.mp4 */; };
+		BF76DABD2680855200B10706 /* How to Defrost Meat Quickly & Safely.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA7D2680855000B10706 /* How to Defrost Meat Quickly & Safely.mp4 */; };
+		BF76DABE2680855200B10706 /* How to Debone And Roll a Rib of Beef | Tesco Food.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA7F2680855000B10706 /* How to Debone And Roll a Rib of Beef | Tesco Food.mp4 */; };
+		BF76DABF2680855200B10706 /* RibBoning_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA802680855000B10706 /* RibBoning_Step1.mp4 */; };
+		BF76DAC02680855200B10706 /* RibBoning_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA812680855000B10706 /* RibBoning_Step2.mp4 */; };
+		BF76DAC12680855200B10706 /* How to Dry Age Steak at Home | No Equipment Dry Aging.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA832680855000B10706 /* How to Dry Age Steak at Home | No Equipment Dry Aging.mp4 */; };
+		BF76DAC22680855200B10706 /* DryAgingBeef_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA842680855000B10706 /* DryAgingBeef_Step4.mp4 */; };
+		BF76DAC32680855200B10706 /* DryAgingBeef_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA852680855000B10706 /* DryAgingBeef_Step1.mp4 */; };
+		BF76DAC42680855200B10706 /* DryAgingBeef_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA862680855000B10706 /* DryAgingBeef_Step3.mp4 */; };
+		BF76DAC52680855200B10706 /* DryAgingBeef_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA872680855000B10706 /* DryAgingBeef_Step2.mp4 */; };
+		BF76DAC62680855200B10706 /* How To Butcher A Beef Tenderloin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA892680855000B10706 /* How To Butcher A Beef Tenderloin.mp4 */; };
+		BF76DAC72680855200B10706 /* TrimmingTenderloin_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA8A2680855000B10706 /* TrimmingTenderloin_Step2.mp4 */; };
+		BF76DAC82680855200B10706 /* TrimmingTenderloin_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA8B2680855000B10706 /* TrimmingTenderloin_Step1.mp4 */; };
+		BF76DAC92680855200B10706 /* RibFrenching_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA8D2680855000B10706 /* RibFrenching_Step2.mp4 */; };
+		BF76DACA2680855200B10706 /* RibFrenching_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA8E2680855000B10706 /* RibFrenching_Step1.mp4 */; };
+		BF76DACB2680855200B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA8F2680855000B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 */; };
+		BF76DACC2680855200B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA912680855000B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 */; };
+		BF76DACD2680855200B10706 /* BeefPowdering_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA922680855000B10706 /* BeefPowdering_Step3.mp4 */; };
+		BF76DACE2680855200B10706 /* BeefPowdering_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA932680855000B10706 /* BeefPowdering_Step2.mp4 */; };
+		BF76DACF2680855200B10706 /* BeefPowdering_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA942680855000B10706 /* BeefPowdering_Step1.mp4 */; };
+		BF76DAD02680855200B10706 /* brining_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA972680855200B10706 /* brining_Step2.mp4 */; };
+		BF76DAD12680855200B10706 /* brining_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA982680855200B10706 /* brining_Step3.mp4 */; };
+		BF76DAD22680855200B10706 /* brining_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA992680855200B10706 /* brining_Step1.mp4 */; };
+		BF76DAD32680855200B10706 /* brining_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA9A2680855200B10706 /* brining_Step4.mp4 */; };
+		BF76DAD42680855200B10706 /* sectioningChicken_Step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA9C2680855200B10706 /* sectioningChicken_Step3.mp4 */; };
+		BF76DAD52680855200B10706 /* sectioningChicken_Step5 .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA9D2680855200B10706 /* sectioningChicken_Step5 .mp4 */; };
+		BF76DAD62680855200B10706 /* sectioningChicken_Step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA9E2680855200B10706 /* sectioningChicken_Step2.mp4 */; };
+		BF76DAD72680855200B10706 /* sectioningChicken_Step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA9F2680855200B10706 /* sectioningChicken_Step1.mp4 */; };
+		BF76DAD82680855200B10706 /* sectioningChicken_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAA02680855200B10706 /* sectioningChicken_Step4.mp4 */; };
+		BF76DADD268086D200B10706 /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DADA268086D200B10706 /* IngredientViewController.swift */; };
+		BF76DADE268086D200B10706 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DADB268086D200B10706 /* PreviewViewController.swift */; };
+		BF76DADF268086D200B10706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DADC268086D200B10706 /* ViewController.swift */; };
+		BF76DAE5268086E500B10706 /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAE1268086E500B10706 /* OnBoardingCollectionViewCell.swift */; };
+		BF76DAE6268086E500B10706 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAE2268086E500B10706 /* OnBoarding.storyboard */; };
+		BF76DAE7268086E500B10706 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAE3268086E500B10706 /* OnBoardingViewController.swift */; };
+		BF76DAE8268086E500B10706 /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAE4268086E500B10706 /* OnBoardingSlide.swift */; };
+		BF76DAFC268088AC00B10706 /* RecentlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAEC268088AC00B10706 /* RecentlyCollectionViewCell.swift */; };
+		BF76DAFD268088AC00B10706 /* RecentlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAED268088AC00B10706 /* RecentlyCollectionViewCell.xib */; };
+		BF76DAFE268088AC00B10706 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAF0268088AC00B10706 /* CategoryTableViewCell.swift */; };
+		BF76DAFF268088AC00B10706 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAF1268088AC00B10706 /* CategoryTableViewCell.xib */; };
+		BF76DB00268088AC00B10706 /* FactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAF3268088AC00B10706 /* FactTableViewCell.swift */; };
+		BF76DB01268088AC00B10706 /* FactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAF4268088AC00B10706 /* FactTableViewCell.xib */; };
+		BF76DB02268088AC00B10706 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAF6268088AC00B10706 /* ProductTableViewCell.swift */; };
+		BF76DB03268088AC00B10706 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAF7268088AC00B10706 /* ProductTableViewCell.xib */; };
+		BF76DB04268088AC00B10706 /* StepByStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAF9268088AC00B10706 /* StepByStepViewController.swift */; };
+		BF76DB05268088AC00B10706 /* StepByStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAFA268088AC00B10706 /* StepByStep.storyboard */; };
+		BF76DB06268088AC00B10706 /* StepByStepCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAFB268088AC00B10706 /* StepByStepCollectionViewCell.swift */; };
+		BF76DB082680895900B10706 /* StretchyTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DB072680895900B10706 /* StretchyTableHeaderView.swift */; };
+		BF76DB5A268089AF00B10706 /* category_Beef.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB0A268089AF00B10706 /* category_Beef.json */; };
+		BF76DB93268089AF00B10706 /* category_Fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB56268089AF00B10706 /* category_Fruit.json */; };
+		BF76DB94268089AF00B10706 /* category_Veggies.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB57268089AF00B10706 /* category_Veggies.json */; };
+		BF76DB95268089AF00B10706 /* category_Chicken.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB58268089AF00B10706 /* category_Chicken.json */; };
+		BF76DB96268089AF00B10706 /* categoryProduct.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB59268089AF00B10706 /* categoryProduct.json */; };
+		BF76DB9826808A6A00B10706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB9726808A6A00B10706 /* LaunchScreen.storyboard */; };
+		BF76DB9A26808A8500B10706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB9926808A8500B10706 /* Main.storyboard */; };
 		BFBD2D562671AC6200481A35 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD2D542671AC6200481A35 /* CategoriesCollectionViewCell.swift */; };
 		BFBD2D572671AC6200481A35 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBD2D552671AC6200481A35 /* CategoriesCollectionViewCell.xib */; };
-		BFFD26D32671B440006F3A32 /* RecentlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD26D12671B440006F3A32 /* RecentlyCollectionViewCell.swift */; };
-		BFFD26D42671B440006F3A32 /* RecentlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFFD26D22671B440006F3A32 /* RecentlyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,10 +146,9 @@
 		BF67706B2669FE8500DFF9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		BF6770722669FE8500DFF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF6770722669FE8500DFF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AnotherMain.storyboard; sourceTree = "<group>"; };
 		BF6770752669FE8500DFF9BE /* PrepZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrepZ.xcdatamodel; sourceTree = "<group>"; };
 		BF6770772669FE8500DFF9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF67707A2669FE8500DFF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF67707C2669FE8500DFF9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF6770812669FE8500DFF9BE /* PrepZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrepZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6770852669FE8500DFF9BE /* PrepZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepZTests.swift; sourceTree = "<group>"; };
@@ -85,10 +163,90 @@
 		BF6770A7266A090B00DFF9BE /* StepByStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StepByStep.storyboard; sourceTree = "<group>"; };
 		BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepViewController.swift; sourceTree = "<group>"; };
 		BF6770B0266A0EBD00DFF9BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BF76DA592680853F00B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4"; sourceTree = "<group>"; };
+		BF76DA5A2680853F00B10706 /* Apple_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA5B2680853F00B10706 /* Apple_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA5C2680853F00B10706 /* Apple_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA5D2680853F00B10706 /* Apple_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA5F2680853F00B10706 /* How to Preserve Avocados_480p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Preserve Avocados_480p.mp4"; sourceTree = "<group>"; };
+		BF76DA602680853F00B10706 /* Avocado_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avocado_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA612680853F00B10706 /* Avocado_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avocado_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA622680853F00B10706 /* Avocado_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avocado_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA632680853F00B10706 /* Avocado_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avocado_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA652680853F00B10706 /* Watermelon_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA662680853F00B10706 /* Watermelon_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA672680853F00B10706 /* Watermelon_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA682680853F00B10706 /* Watermelon_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA692680853F00B10706 /* How to Cut a Watermelon  eTundra_480p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Cut a Watermelon  eTundra_480p.mp4"; sourceTree = "<group>"; };
+		BF76DA6B2680853F00B10706 /* How To Cut And Dice A Mango_480p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How To Cut And Dice A Mango_480p.mp4"; sourceTree = "<group>"; };
+		BF76DA6C2680853F00B10706 /* Mango_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA6D2680853F00B10706 /* Mango_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA6E2680853F00B10706 /* Mango_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA6F2680853F00B10706 /* Mango_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA722680854000B10706 /* spinach_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spinach_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA732680854000B10706 /* spinach_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spinach_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA742680854000B10706 /* spinach_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spinach_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA762680854000B10706 /* bokChoy_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bokChoy_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA772680854000B10706 /* bokChoy_Step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bokChoy_Step5.mp4; sourceTree = "<group>"; };
+		BF76DA782680854000B10706 /* bokChoy_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bokChoy_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA7B2680855000B10706 /* BeefDefrost_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeefDefrost_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA7C2680855000B10706 /* BeefDefrost_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeefDefrost_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA7D2680855000B10706 /* How to Defrost Meat Quickly & Safely.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Defrost Meat Quickly & Safely.mp4"; sourceTree = "<group>"; };
+		BF76DA7F2680855000B10706 /* How to Debone And Roll a Rib of Beef | Tesco Food.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Debone And Roll a Rib of Beef | Tesco Food.mp4"; sourceTree = "<group>"; };
+		BF76DA802680855000B10706 /* RibBoning_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RibBoning_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA812680855000B10706 /* RibBoning_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RibBoning_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA832680855000B10706 /* How to Dry Age Steak at Home | No Equipment Dry Aging.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Dry Age Steak at Home | No Equipment Dry Aging.mp4"; sourceTree = "<group>"; };
+		BF76DA842680855000B10706 /* DryAgingBeef_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DryAgingBeef_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA852680855000B10706 /* DryAgingBeef_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DryAgingBeef_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA862680855000B10706 /* DryAgingBeef_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DryAgingBeef_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA872680855000B10706 /* DryAgingBeef_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DryAgingBeef_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA892680855000B10706 /* How To Butcher A Beef Tenderloin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How To Butcher A Beef Tenderloin.mp4"; sourceTree = "<group>"; };
+		BF76DA8A2680855000B10706 /* TrimmingTenderloin_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrimmingTenderloin_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA8B2680855000B10706 /* TrimmingTenderloin_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrimmingTenderloin_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA8D2680855000B10706 /* RibFrenching_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RibFrenching_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA8E2680855000B10706 /* RibFrenching_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RibFrenching_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA8F2680855000B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4"; sourceTree = "<group>"; };
+		BF76DA912680855000B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cooking Tips_ How To Tenderize ANY Meat!.mp4"; sourceTree = "<group>"; };
+		BF76DA922680855000B10706 /* BeefPowdering_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeefPowdering_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA932680855000B10706 /* BeefPowdering_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeefPowdering_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA942680855000B10706 /* BeefPowdering_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BeefPowdering_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA972680855200B10706 /* brining_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brining_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA982680855200B10706 /* brining_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brining_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA992680855200B10706 /* brining_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brining_Step1.mp4; sourceTree = "<group>"; };
+		BF76DA9A2680855200B10706 /* brining_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = brining_Step4.mp4; sourceTree = "<group>"; };
+		BF76DA9C2680855200B10706 /* sectioningChicken_Step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sectioningChicken_Step3.mp4; sourceTree = "<group>"; };
+		BF76DA9D2680855200B10706 /* sectioningChicken_Step5 .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sectioningChicken_Step5 .mp4"; sourceTree = "<group>"; };
+		BF76DA9E2680855200B10706 /* sectioningChicken_Step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sectioningChicken_Step2.mp4; sourceTree = "<group>"; };
+		BF76DA9F2680855200B10706 /* sectioningChicken_Step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sectioningChicken_Step1.mp4; sourceTree = "<group>"; };
+		BF76DAA02680855200B10706 /* sectioningChicken_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sectioningChicken_Step4.mp4; sourceTree = "<group>"; };
+		BF76DADA268086D200B10706 /* IngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		BF76DADB268086D200B10706 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		BF76DADC268086D200B10706 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF76DAE1268086E500B10706 /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF76DAE2268086E500B10706 /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		BF76DAE3268086E500B10706 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		BF76DAE4268086E500B10706 /* OnBoardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		BF76DAEC268088AC00B10706 /* RecentlyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF76DAED268088AC00B10706 /* RecentlyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentlyCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF76DAF0268088AC00B10706 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		BF76DAF1268088AC00B10706 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		BF76DAF3268088AC00B10706 /* FactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableViewCell.swift; sourceTree = "<group>"; };
+		BF76DAF4268088AC00B10706 /* FactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactTableViewCell.xib; sourceTree = "<group>"; };
+		BF76DAF6268088AC00B10706 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		BF76DAF7268088AC00B10706 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		BF76DAF9268088AC00B10706 /* StepByStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepByStepViewController.swift; sourceTree = "<group>"; };
+		BF76DAFA268088AC00B10706 /* StepByStep.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StepByStep.storyboard; sourceTree = "<group>"; };
+		BF76DAFB268088AC00B10706 /* StepByStepCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepByStepCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF76DB072680895900B10706 /* StretchyTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StretchyTableHeaderView.swift; sourceTree = "<group>"; };
+		BF76DB0A268089AF00B10706 /* category_Beef.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Beef.json; sourceTree = "<group>"; };
+		BF76DB56268089AF00B10706 /* category_Fruit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Fruit.json; sourceTree = "<group>"; };
+		BF76DB57268089AF00B10706 /* category_Veggies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Veggies.json; sourceTree = "<group>"; };
+		BF76DB58268089AF00B10706 /* category_Chicken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Chicken.json; sourceTree = "<group>"; };
+		BF76DB59268089AF00B10706 /* categoryProduct.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryProduct.json; sourceTree = "<group>"; };
+		BF76DB9726808A6A00B10706 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF76DB9926808A8500B10706 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BFBD2D542671AC6200481A35 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
 		BFBD2D552671AC6200481A35 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
-		BFFD26D12671B440006F3A32 /* RecentlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyCollectionViewCell.swift; sourceTree = "<group>"; };
-		BFFD26D22671B440006F3A32 /* RecentlyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentlyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,11 +319,12 @@
 			children = (
 				BF67706B2669FE8500DFF9BE /* AppDelegate.swift */,
 				BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */,
+				BF76DAD9268086C000B10706 /* Project PrepZ */,
 				BF6770AD266A0B0200DFF9BE /* Model */,
 				BF6770AE266A0B0800DFF9BE /* View */,
 				BF6770AF266A0B0F00DFF9BE /* Controller */,
 				BF6770772669FE8500DFF9BE /* Assets.xcassets */,
-				BF6770792669FE8500DFF9BE /* LaunchScreen.storyboard */,
+				BF76DB9726808A6A00B10706 /* LaunchScreen.storyboard */,
 				BF67707C2669FE8500DFF9BE /* Info.plist */,
 				BF6770742669FE8500DFF9BE /* PrepZ.xcdatamodeld */,
 			);
@@ -193,8 +352,11 @@
 		BF6770AD266A0B0200DFF9BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF76DB09268089AF00B10706 /* Json */,
+				BF76DA562680852D00B10706 /* Video */,
 				BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */,
 				BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */,
+				BF76DB072680895900B10706 /* StretchyTableHeaderView.swift */,
 				91A77117267755EB00314D55 /* StepByStepSlide.swift */,
 			);
 			path = Model;
@@ -205,9 +367,8 @@
 			children = (
 				91A7711926775F4E00314D55 /* StepByStep View */,
 				BF6770A3266A08D500DFF9BE /* Preview.storyboard */,
-				BF6770712669FE8500DFF9BE /* Main.storyboard */,
+				BF6770712669FE8500DFF9BE /* AnotherMain.storyboard */,
 				BF67709E266A044900DFF9BE /* Categories.storyboard */,
-				BFFD26D52671B449006F3A32 /* RecentlyViewed */,
 				BFBD2D582671AC6900481A35 /* Categories Cell */,
 			);
 			path = View;
@@ -226,6 +387,323 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		BF76DA562680852D00B10706 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA792680855000B10706 /* VIDEO BEEF */,
+				BF76DA952680855200B10706 /* VIDEO CHICKEN */,
+				BF76DA572680853F00B10706 /* VIDEO FRUITS */,
+				BF76DA702680854000B10706 /* VIDEO GREENS */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		BF76DA572680853F00B10706 /* VIDEO FRUITS */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA582680853F00B10706 /* Apple */,
+				BF76DA5E2680853F00B10706 /* Avocado */,
+				BF76DA642680853F00B10706 /* Watermelon */,
+				BF76DA6A2680853F00B10706 /* Mango */,
+			);
+			path = "VIDEO FRUITS";
+			sourceTree = "<group>";
+		};
+		BF76DA582680853F00B10706 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA592680853F00B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 */,
+				BF76DA5A2680853F00B10706 /* Apple_Step4.mp4 */,
+				BF76DA5B2680853F00B10706 /* Apple_Step1.mp4 */,
+				BF76DA5C2680853F00B10706 /* Apple_Step2.mp4 */,
+				BF76DA5D2680853F00B10706 /* Apple_Step3.mp4 */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		BF76DA5E2680853F00B10706 /* Avocado */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA5F2680853F00B10706 /* How to Preserve Avocados_480p.mp4 */,
+				BF76DA602680853F00B10706 /* Avocado_Step4.mp4 */,
+				BF76DA612680853F00B10706 /* Avocado_Step3.mp4 */,
+				BF76DA622680853F00B10706 /* Avocado_Step2.mp4 */,
+				BF76DA632680853F00B10706 /* Avocado_Step1.mp4 */,
+			);
+			path = Avocado;
+			sourceTree = "<group>";
+		};
+		BF76DA642680853F00B10706 /* Watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA652680853F00B10706 /* Watermelon_Step2.mp4 */,
+				BF76DA662680853F00B10706 /* Watermelon_Step3.mp4 */,
+				BF76DA672680853F00B10706 /* Watermelon_Step1.mp4 */,
+				BF76DA682680853F00B10706 /* Watermelon_Step4.mp4 */,
+				BF76DA692680853F00B10706 /* How to Cut a Watermelon  eTundra_480p.mp4 */,
+			);
+			path = Watermelon;
+			sourceTree = "<group>";
+		};
+		BF76DA6A2680853F00B10706 /* Mango */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA6B2680853F00B10706 /* How To Cut And Dice A Mango_480p.mp4 */,
+				BF76DA6C2680853F00B10706 /* Mango_Step4.mp4 */,
+				BF76DA6D2680853F00B10706 /* Mango_Step1.mp4 */,
+				BF76DA6E2680853F00B10706 /* Mango_Step3.mp4 */,
+				BF76DA6F2680853F00B10706 /* Mango_Step2.mp4 */,
+			);
+			path = Mango;
+			sourceTree = "<group>";
+		};
+		BF76DA702680854000B10706 /* VIDEO GREENS */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA712680854000B10706 /* Spinach */,
+				BF76DA752680854000B10706 /* Bok Choy */,
+			);
+			path = "VIDEO GREENS";
+			sourceTree = "<group>";
+		};
+		BF76DA712680854000B10706 /* Spinach */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA722680854000B10706 /* spinach_Step3.mp4 */,
+				BF76DA732680854000B10706 /* spinach_Step2.mp4 */,
+				BF76DA742680854000B10706 /* spinach_Step1.mp4 */,
+			);
+			path = Spinach;
+			sourceTree = "<group>";
+		};
+		BF76DA752680854000B10706 /* Bok Choy */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA762680854000B10706 /* bokChoy_Step2.mp4 */,
+				BF76DA772680854000B10706 /* bokChoy_Step5.mp4 */,
+				BF76DA782680854000B10706 /* bokChoy_Step4.mp4 */,
+			);
+			path = "Bok Choy";
+			sourceTree = "<group>";
+		};
+		BF76DA792680855000B10706 /* VIDEO BEEF */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA7A2680855000B10706 /* Beef Defrost */,
+				BF76DA7E2680855000B10706 /* Rib Boning */,
+				BF76DA822680855000B10706 /* Beef Dry Aging */,
+				BF76DA882680855000B10706 /* Beef Trimming */,
+				BF76DA8C2680855000B10706 /* Rib Frenching */,
+				BF76DA902680855000B10706 /* Beef Powdering */,
+			);
+			path = "VIDEO BEEF";
+			sourceTree = "<group>";
+		};
+		BF76DA7A2680855000B10706 /* Beef Defrost */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA7B2680855000B10706 /* BeefDefrost_Step1.mp4 */,
+				BF76DA7C2680855000B10706 /* BeefDefrost_Step2.mp4 */,
+				BF76DA7D2680855000B10706 /* How to Defrost Meat Quickly & Safely.mp4 */,
+			);
+			path = "Beef Defrost";
+			sourceTree = "<group>";
+		};
+		BF76DA7E2680855000B10706 /* Rib Boning */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA7F2680855000B10706 /* How to Debone And Roll a Rib of Beef | Tesco Food.mp4 */,
+				BF76DA802680855000B10706 /* RibBoning_Step1.mp4 */,
+				BF76DA812680855000B10706 /* RibBoning_Step2.mp4 */,
+			);
+			path = "Rib Boning";
+			sourceTree = "<group>";
+		};
+		BF76DA822680855000B10706 /* Beef Dry Aging */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA832680855000B10706 /* How to Dry Age Steak at Home | No Equipment Dry Aging.mp4 */,
+				BF76DA842680855000B10706 /* DryAgingBeef_Step4.mp4 */,
+				BF76DA852680855000B10706 /* DryAgingBeef_Step1.mp4 */,
+				BF76DA862680855000B10706 /* DryAgingBeef_Step3.mp4 */,
+				BF76DA872680855000B10706 /* DryAgingBeef_Step2.mp4 */,
+			);
+			path = "Beef Dry Aging";
+			sourceTree = "<group>";
+		};
+		BF76DA882680855000B10706 /* Beef Trimming */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA892680855000B10706 /* How To Butcher A Beef Tenderloin.mp4 */,
+				BF76DA8A2680855000B10706 /* TrimmingTenderloin_Step2.mp4 */,
+				BF76DA8B2680855000B10706 /* TrimmingTenderloin_Step1.mp4 */,
+			);
+			path = "Beef Trimming";
+			sourceTree = "<group>";
+		};
+		BF76DA8C2680855000B10706 /* Rib Frenching */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA8D2680855000B10706 /* RibFrenching_Step2.mp4 */,
+				BF76DA8E2680855000B10706 /* RibFrenching_Step1.mp4 */,
+				BF76DA8F2680855000B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 */,
+			);
+			path = "Rib Frenching";
+			sourceTree = "<group>";
+		};
+		BF76DA902680855000B10706 /* Beef Powdering */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA912680855000B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 */,
+				BF76DA922680855000B10706 /* BeefPowdering_Step3.mp4 */,
+				BF76DA932680855000B10706 /* BeefPowdering_Step2.mp4 */,
+				BF76DA942680855000B10706 /* BeefPowdering_Step1.mp4 */,
+			);
+			path = "Beef Powdering";
+			sourceTree = "<group>";
+		};
+		BF76DA952680855200B10706 /* VIDEO CHICKEN */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA962680855200B10706 /* Brining Chicken */,
+				BF76DA9B2680855200B10706 /* Sectioning Chicken */,
+			);
+			path = "VIDEO CHICKEN";
+			sourceTree = "<group>";
+		};
+		BF76DA962680855200B10706 /* Brining Chicken */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA972680855200B10706 /* brining_Step2.mp4 */,
+				BF76DA982680855200B10706 /* brining_Step3.mp4 */,
+				BF76DA992680855200B10706 /* brining_Step1.mp4 */,
+				BF76DA9A2680855200B10706 /* brining_Step4.mp4 */,
+			);
+			path = "Brining Chicken";
+			sourceTree = "<group>";
+		};
+		BF76DA9B2680855200B10706 /* Sectioning Chicken */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DA9C2680855200B10706 /* sectioningChicken_Step3.mp4 */,
+				BF76DA9D2680855200B10706 /* sectioningChicken_Step5 .mp4 */,
+				BF76DA9E2680855200B10706 /* sectioningChicken_Step2.mp4 */,
+				BF76DA9F2680855200B10706 /* sectioningChicken_Step1.mp4 */,
+				BF76DAA02680855200B10706 /* sectioningChicken_Step4.mp4 */,
+			);
+			path = "Sectioning Chicken";
+			sourceTree = "<group>";
+		};
+		BF76DAD9268086C000B10706 /* Project PrepZ */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DB9926808A8500B10706 /* Main.storyboard */,
+				BF76DAF8268088AC00B10706 /* StepByStep */,
+				BF76DAE9268088AC00B10706 /* TableCollectionCell */,
+				BF76DAE0268086E500B10706 /* OnBoarding */,
+				BF76DADA268086D200B10706 /* IngredientViewController.swift */,
+				BF76DADB268086D200B10706 /* PreviewViewController.swift */,
+				BF76DADC268086D200B10706 /* ViewController.swift */,
+			);
+			path = "Project PrepZ";
+			sourceTree = "<group>";
+		};
+		BF76DAE0268086E500B10706 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAE1268086E500B10706 /* OnBoardingCollectionViewCell.swift */,
+				BF76DAE2268086E500B10706 /* OnBoarding.storyboard */,
+				BF76DAE3268086E500B10706 /* OnBoardingViewController.swift */,
+				BF76DAE4268086E500B10706 /* OnBoardingSlide.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		BF76DAE9268088AC00B10706 /* TableCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAEA268088AC00B10706 /* CollectionCell */,
+				BF76DAEE268088AC00B10706 /* TableCell */,
+			);
+			path = TableCollectionCell;
+			sourceTree = "<group>";
+		};
+		BF76DAEA268088AC00B10706 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAEB268088AC00B10706 /* Recently */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		BF76DAEB268088AC00B10706 /* Recently */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAEC268088AC00B10706 /* RecentlyCollectionViewCell.swift */,
+				BF76DAED268088AC00B10706 /* RecentlyCollectionViewCell.xib */,
+			);
+			path = Recently;
+			sourceTree = "<group>";
+		};
+		BF76DAEE268088AC00B10706 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAEF268088AC00B10706 /* Category */,
+				BF76DAF2268088AC00B10706 /* Fact */,
+				BF76DAF5268088AC00B10706 /* Recent Product */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		BF76DAEF268088AC00B10706 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAF0268088AC00B10706 /* CategoryTableViewCell.swift */,
+				BF76DAF1268088AC00B10706 /* CategoryTableViewCell.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BF76DAF2268088AC00B10706 /* Fact */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAF3268088AC00B10706 /* FactTableViewCell.swift */,
+				BF76DAF4268088AC00B10706 /* FactTableViewCell.xib */,
+			);
+			path = Fact;
+			sourceTree = "<group>";
+		};
+		BF76DAF5268088AC00B10706 /* Recent Product */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAF6268088AC00B10706 /* ProductTableViewCell.swift */,
+				BF76DAF7268088AC00B10706 /* ProductTableViewCell.xib */,
+			);
+			path = "Recent Product";
+			sourceTree = "<group>";
+		};
+		BF76DAF8268088AC00B10706 /* StepByStep */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAF9268088AC00B10706 /* StepByStepViewController.swift */,
+				BF76DAFA268088AC00B10706 /* StepByStep.storyboard */,
+				BF76DAFB268088AC00B10706 /* StepByStepCollectionViewCell.swift */,
+			);
+			path = StepByStep;
+			sourceTree = "<group>";
+		};
+		BF76DB09268089AF00B10706 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DB0A268089AF00B10706 /* category_Beef.json */,
+				BF76DB56268089AF00B10706 /* category_Fruit.json */,
+				BF76DB57268089AF00B10706 /* category_Veggies.json */,
+				BF76DB58268089AF00B10706 /* category_Chicken.json */,
+				BF76DB59268089AF00B10706 /* categoryProduct.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
 		BFBD2D582671AC6900481A35 /* Categories Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,15 +711,6 @@
 				BFBD2D552671AC6200481A35 /* CategoriesCollectionViewCell.xib */,
 			);
 			path = "Categories Cell";
-			sourceTree = "<group>";
-		};
-		BFFD26D52671B449006F3A32 /* RecentlyViewed */ = {
-			isa = PBXGroup;
-			children = (
-				BFFD26D12671B440006F3A32 /* RecentlyCollectionViewCell.swift */,
-				BFFD26D22671B440006F3A32 /* RecentlyCollectionViewCell.xib */,
-			);
-			path = RecentlyViewed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,15 +816,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF67707B2669FE8500DFF9BE /* LaunchScreen.storyboard in Resources */,
+				BF76DAA42680855200B10706 /* Apple_Step2.mp4 in Resources */,
+				BF76DAD52680855200B10706 /* sectioningChicken_Step5 .mp4 in Resources */,
+				BF76DB96268089AF00B10706 /* categoryProduct.json in Resources */,
+				BF76DAD12680855200B10706 /* brining_Step3.mp4 in Resources */,
+				BF76DACA2680855200B10706 /* RibFrenching_Step1.mp4 in Resources */,
+				BF76DAD32680855200B10706 /* brining_Step4.mp4 in Resources */,
+				BF76DABE2680855200B10706 /* How to Debone And Roll a Rib of Beef | Tesco Food.mp4 in Resources */,
+				BF76DAD22680855200B10706 /* brining_Step1.mp4 in Resources */,
+				BF76DAB72680855200B10706 /* spinach_Step1.mp4 in Resources */,
+				BF76DAAB2680855200B10706 /* Watermelon_Step2.mp4 in Resources */,
+				BF76DAB12680855200B10706 /* Mango_Step4.mp4 in Resources */,
+				BF76DAE6268086E500B10706 /* OnBoarding.storyboard in Resources */,
+				BF76DB94268089AF00B10706 /* category_Veggies.json in Resources */,
+				BF76DAD82680855200B10706 /* sectioningChicken_Step4.mp4 in Resources */,
 				BF6770A4266A08D500DFF9BE /* Preview.storyboard in Resources */,
+				BF76DAC52680855200B10706 /* DryAgingBeef_Step2.mp4 in Resources */,
+				BF76DAB22680855200B10706 /* Mango_Step1.mp4 in Resources */,
 				BF6770782669FE8500DFF9BE /* Assets.xcassets in Resources */,
+				BF76DB03268088AC00B10706 /* ProductTableViewCell.xib in Resources */,
+				BF76DAAC2680855200B10706 /* Watermelon_Step3.mp4 in Resources */,
 				BF6770A8266A090B00DFF9BE /* StepByStep.storyboard in Resources */,
-				BFFD26D42671B440006F3A32 /* RecentlyCollectionViewCell.xib in Resources */,
+				BF76DACE2680855200B10706 /* BeefPowdering_Step2.mp4 in Resources */,
+				BF76DAB62680855200B10706 /* spinach_Step2.mp4 in Resources */,
+				BF76DAC42680855200B10706 /* DryAgingBeef_Step3.mp4 in Resources */,
+				BF76DAFD268088AC00B10706 /* RecentlyCollectionViewCell.xib in Resources */,
+				BF76DAD02680855200B10706 /* brining_Step2.mp4 in Resources */,
+				BF76DAAE2680855200B10706 /* Watermelon_Step4.mp4 in Resources */,
+				BF76DAC92680855200B10706 /* RibFrenching_Step2.mp4 in Resources */,
+				BF76DAA12680855200B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 in Resources */,
+				BF76DAA62680855200B10706 /* How to Preserve Avocados_480p.mp4 in Resources */,
+				BF76DAC62680855200B10706 /* How To Butcher A Beef Tenderloin.mp4 in Resources */,
+				BF76DAC22680855200B10706 /* DryAgingBeef_Step4.mp4 in Resources */,
+				BF76DAC32680855200B10706 /* DryAgingBeef_Step1.mp4 in Resources */,
+				BF76DB9826808A6A00B10706 /* LaunchScreen.storyboard in Resources */,
+				BF76DAFF268088AC00B10706 /* CategoryTableViewCell.xib in Resources */,
+				BF76DAB52680855200B10706 /* spinach_Step3.mp4 in Resources */,
+				BF76DB95268089AF00B10706 /* category_Chicken.json in Resources */,
+				BF76DB93268089AF00B10706 /* category_Fruit.json in Resources */,
+				BF76DAA52680855200B10706 /* Apple_Step3.mp4 in Resources */,
+				BF76DABC2680855200B10706 /* BeefDefrost_Step2.mp4 in Resources */,
+				BF76DAAA2680855200B10706 /* Avocado_Step1.mp4 in Resources */,
+				BF76DB01268088AC00B10706 /* FactTableViewCell.xib in Resources */,
+				BF76DAC02680855200B10706 /* RibBoning_Step2.mp4 in Resources */,
 				BFBD2D572671AC6200481A35 /* CategoriesCollectionViewCell.xib in Resources */,
+				BF76DAAD2680855200B10706 /* Watermelon_Step1.mp4 in Resources */,
+				BF76DB05268088AC00B10706 /* StepByStep.storyboard in Resources */,
+				BF76DAC12680855200B10706 /* How to Dry Age Steak at Home | No Equipment Dry Aging.mp4 in Resources */,
+				BF76DAA92680855200B10706 /* Avocado_Step2.mp4 in Resources */,
+				BF76DAB82680855200B10706 /* bokChoy_Step2.mp4 in Resources */,
+				BF76DABF2680855200B10706 /* RibBoning_Step1.mp4 in Resources */,
+				BF76DAB32680855200B10706 /* Mango_Step3.mp4 in Resources */,
+				BF76DAC82680855200B10706 /* TrimmingTenderloin_Step1.mp4 in Resources */,
+				BF76DAA82680855200B10706 /* Avocado_Step3.mp4 in Resources */,
+				BF76DAB02680855200B10706 /* How To Cut And Dice A Mango_480p.mp4 in Resources */,
+				BF76DAC72680855200B10706 /* TrimmingTenderloin_Step2.mp4 in Resources */,
+				BF76DB9A26808A8500B10706 /* Main.storyboard in Resources */,
+				BF76DACD2680855200B10706 /* BeefPowdering_Step3.mp4 in Resources */,
+				BF76DAD72680855200B10706 /* sectioningChicken_Step1.mp4 in Resources */,
+				BF76DAB92680855200B10706 /* bokChoy_Step5.mp4 in Resources */,
+				BF76DAB42680855200B10706 /* Mango_Step2.mp4 in Resources */,
+				BF76DAA22680855200B10706 /* Apple_Step4.mp4 in Resources */,
+				BF76DAAF2680855200B10706 /* How to Cut a Watermelon  eTundra_480p.mp4 in Resources */,
+				BF76DABA2680855200B10706 /* bokChoy_Step4.mp4 in Resources */,
+				BF76DAA32680855200B10706 /* Apple_Step1.mp4 in Resources */,
+				BF76DAA72680855200B10706 /* Avocado_Step4.mp4 in Resources */,
+				BF76DAD62680855200B10706 /* sectioningChicken_Step2.mp4 in Resources */,
+				BF76DAD42680855200B10706 /* sectioningChicken_Step3.mp4 in Resources */,
+				BF76DACB2680855200B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 in Resources */,
 				914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */,
+				BF76DB5A268089AF00B10706 /* category_Beef.json in Resources */,
+				BF76DACC2680855200B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 in Resources */,
+				BF76DACF2680855200B10706 /* BeefPowdering_Step1.mp4 in Resources */,
+				BF76DABD2680855200B10706 /* How to Defrost Meat Quickly & Safely.mp4 in Resources */,
+				BF76DABB2680855200B10706 /* BeefDefrost_Step1.mp4 in Resources */,
 				BF6770A0266A044900DFF9BE /* Categories.storyboard in Resources */,
-				BF6770732669FE8500DFF9BE /* Main.storyboard in Resources */,
+				BF6770732669FE8500DFF9BE /* AnotherMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,23 +916,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFD26D32671B440006F3A32 /* RecentlyCollectionViewCell.swift in Sources */,
+				BF76DAFC268088AC00B10706 /* RecentlyCollectionViewCell.swift in Sources */,
+				BF76DAE5268086E500B10706 /* OnBoardingCollectionViewCell.swift in Sources */,
 				BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */,
 				BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */,
+				BF76DAFE268088AC00B10706 /* CategoryTableViewCell.swift in Sources */,
 				BF6770AC266A0AD800DFF9BE /* StepByStepViewController.swift in Sources */,
 				BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */,
 				91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */,
+				BF76DB06268088AC00B10706 /* StepByStepCollectionViewCell.swift in Sources */,
+				BF76DB00268088AC00B10706 /* FactTableViewCell.swift in Sources */,
 				BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */,
 				914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */,
 				91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */,
+				BF76DB082680895900B10706 /* StretchyTableHeaderView.swift in Sources */,
 				BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */,
+				BF76DADF268086D200B10706 /* ViewController.swift in Sources */,
+				BF76DB04268088AC00B10706 /* StepByStepViewController.swift in Sources */,
+				BF76DADE268086D200B10706 /* PreviewViewController.swift in Sources */,
 				91CFEF43267A70710097B0AD /* VoiceViewController.swift in Sources */,
 				BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */,
+				BF76DAE8268086E500B10706 /* OnBoardingSlide.swift in Sources */,
 				BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */,
+				BF76DB02268088AC00B10706 /* ProductTableViewCell.swift in Sources */,
+				BF76DADD268086D200B10706 /* IngredientViewController.swift in Sources */,
 				BFBD2D562671AC6200481A35 /* CategoriesCollectionViewCell.swift in Sources */,
 				BF6770A2266A046C00DFF9BE /* CategoriesViewController.swift in Sources */,
 				BF6770A6266A08E100DFF9BE /* PreviewViewController.swift in Sources */,
 				914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */,
+				BF76DAE7268086E500B10706 /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,20 +980,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF6770712669FE8500DFF9BE /* Main.storyboard */ = {
+		BF6770712669FE8500DFF9BE /* AnotherMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BF6770722669FE8500DFF9BE /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF6770792669FE8500DFF9BE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF67707A2669FE8500DFF9BE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = AnotherMain.storyboard;
 			sourceTree = "<group>";
 		};
 		BF67709E266A044900DFF9BE /* Categories.storyboard */ = {
