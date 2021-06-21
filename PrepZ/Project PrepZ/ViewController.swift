@@ -99,9 +99,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         
         //Recently
-        models.append(Model(imageName: "HOME_CHICKEN"))
-        models.append(Model(imageName: "HOME_BEEF"))
-        models.append(Model(imageName: "HOME_FRUITS"))
+        models.append(Model(imageName: "HOME_RIBFRENCHING"))
+        models.append(Model(imageName: "BEEF_NoText"))
+        models.append(Model(imageName: "FRUITS_NoText"))
         
         //SearchController
         searchController.searchResultsUpdater = self

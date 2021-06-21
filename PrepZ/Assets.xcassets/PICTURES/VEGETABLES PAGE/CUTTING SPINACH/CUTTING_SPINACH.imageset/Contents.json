@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "CUTTING_SPINACH.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "CUTTING_SPINACH@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "CHIOPPING_ BOK_CHOY@3x.png",
+      "filename" : "CUTTING_SPINACH@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

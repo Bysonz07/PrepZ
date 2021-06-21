@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mwF-rZ-g6I">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -29,7 +28,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProjectMC2PrepZ" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +89,7 @@
         <!--ResultVC-->
         <scene sceneID="SIo-qT-5i8">
             <objects>
-                <tableViewController storyboardIdentifier="resultsViewController" id="3Ev-ic-yDp" customClass="ResultVC" customModule="ProjectMC2PrepZ" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="resultsViewController" id="3Ev-ic-yDp" customClass="ResultVC" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="HdC-Fi-poh">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,7 +117,7 @@
         <!--Ingredient View Controller-->
         <scene sceneID="dk6-Su-wRC">
             <objects>
-                <viewController id="EdG-Dy-xBy" customClass="IngredientViewController" customModule="ProjectMC2PrepZ" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EdG-Dy-xBy" customClass="IngredientViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MJz-Vl-qLL">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,18 +136,18 @@
         <!--Preview View Controller-->
         <scene sceneID="DJv-tf-h6e">
             <objects>
-                <viewController id="LYs-CE-ZfH" customClass="PreviewViewController" customModule="ProjectMC2PrepZ" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LYs-CE-ZfH" customClass="PreviewViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7hc-8c-Me4">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SECTIONING_CHICKEN" translatesAutoresizingMaskIntoConstraints="NO" id="gYt-YA-k4l">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CHIOPPING_BOK_CHOY" translatesAutoresizingMaskIntoConstraints="NO" id="gYt-YA-k4l">
                                 <rect key="frame" x="0.0" y="88" width="390" height="260"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="sxx-9E-CG5"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sectioning Chicken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkz-96-H3d">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chopping Bok Choy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkz-96-H3d">
                                 <rect key="frame" x="0.0" y="375" width="390" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -201,7 +200,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. A large bowl of warm water 2. A sharp knife 3. A clean, non-slip cutting board 4. A whole chicken" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NI-ee-Gvq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. A sharp knife 2. A clean, non-slip cutting board 3. A bok choy" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NI-ee-Gvq">
                                 <rect key="frame" x="16" y="595.33333333333337" width="358" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="Ghi-B8-G5x"/>
@@ -383,7 +382,7 @@
         <!--Voice View Controller-->
         <scene sceneID="yg4-cO-nA4">
             <objects>
-                <viewController id="ILP-vO-WGQ" customClass="VoiceViewController" customModule="ProjectMC2PrepZ" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ILP-vO-WGQ" customClass="VoiceViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l3v-ei-mAg">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -512,8 +511,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="CHIOPPING_BOK_CHOY" width="391" height="240"/>
         <image name="LOGO" width="112" height="65"/>
-        <image name="SECTIONING_CHICKEN" width="391" height="252"/>
         <image name="chevron.left.circle.fill" catalog="system" width="128" height="121"/>
         <image name="chevron.right.circle.fill" catalog="system" width="128" height="121"/>
         <image name="mic.circle" catalog="system" width="128" height="121"/>

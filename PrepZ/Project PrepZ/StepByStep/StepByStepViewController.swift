@@ -28,9 +28,9 @@ class StepByStepViewController: UIViewController{
     
     // EDIT KONTEN STEP BY STEP DISINI ATAU DI StepByStepSlide
     var slides: [StepByStepSlide] = [
-        StepByStepSlide(image: UIImage(named: "brining_chicken")!, stepCount: "Step 1/3", stepDetails: "Rinse the chicken in the bowl of warm water. Leave it for 15-20 minutes. After that, wash it with running water.", step: "Soak Chicken"),
-        StepByStepSlide(image: UIImage(named: "brining_chicken")!, stepCount: "Step 2/3", stepDetails: "Rinse the chicken in the bowl of warm water. Leave it for 15-20 minutes. After that, wash it with running water.", step: "Remove Legs and Thighs"),
-        StepByStepSlide(image: UIImage(named: "brining_chicken")!, stepCount: "Step 3/6", stepDetails: "Rinse the chicken in the bowl of warm water. Leave it for 15-20 minutes. After that, wash it with running water.", step: "Separate the Back from the Breast")
+        StepByStepSlide(image: UIImage(named: "CHIOPPING_BOK_CHOY")!, stepCount: "Step 1/3", stepDetails: "Cut and take off the bottom. Then pull off the leaves.", step: "Take off Bottom"),
+        StepByStepSlide(image: UIImage(named: "CHIOPPING_BOK_CHOY")!, stepCount: "Step 2/3", stepDetails: "Rinse the chicken in the bowl of warm water. Leave it for 15-20 minutes. After that, wash it with running water.", step: "Separate the leaves"),
+        StepByStepSlide(image: UIImage(named: "CHIOPPING_BOK_CHOY")!, stepCount: "Step 3/3", stepDetails: "You have successfuly cut bok choy while following the food safety standard. When you want to saute or cook it, put the stem around 2-3 minutes befor the leaves to tender it.\nNow that you’re done, be sure to wash up thoroughly and use disinfecting soap!", step: "You are done!")
     ]
     
     // MARK: - View controller life cycle
@@ -104,20 +104,23 @@ extension StepByStepViewController: UICollectionViewDelegate, UICollectionViewDa
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: StepByStepCollectionViewCell.identifier, for: indexPath) as! StepByStepCollectionViewCell
         cell.setup(slides[indexPath.row])
-        let path = Bundle.main.path(forResource: "brining_Step1", ofType: "mp4")
-            let pathURL = URL(fileURLWithPath: path!)
-            let duration = Int64( ( (Float64(CMTimeGetSeconds(AVAsset(url: pathURL).duration)) *  10.0) - 1) / 10.0 )
+        for data in indexPath {
+            let path = Bundle.main.path(forResource: "bokChoy_Step2", ofType: "mp4")
+                let pathURL = URL(fileURLWithPath: path!)
+                let duration = Int64( ( (Float64(CMTimeGetSeconds(AVAsset(url: pathURL).duration)) *  10.0) - 1) / 10.0 )
 
-        player = AVQueuePlayer()
-        playerLayer = AVPlayerLayer(player: player)
-        playerItem = AVPlayerItem(url: pathURL)
-        playerLooper = AVPlayerLooper(player: player, templateItem: playerItem,
-                                      timeRange: CMTimeRange(start: CMTime.zero, end: CMTimeMake(value: duration, timescale: 1)) )
-        playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
-        playerLayer.frame = CGRect(x: 0, y: 10, width: 391, height: 260)
-//        view.layer.insertSublayer(playerLayer, at: 1)
-        player.volume = 0
-        player.play()
+            player = AVQueuePlayer()
+            playerLayer = AVPlayerLayer(player: player)
+            playerItem = AVPlayerItem(url: pathURL)
+            playerLooper = AVPlayerLooper(player: player, templateItem: playerItem,
+                                          timeRange: CMTimeRange(start: CMTime.zero, end: CMTimeMake(value: duration, timescale: 1)) )
+            playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
+            playerLayer.frame = CGRect(x: 0, y: 10, width: 391, height: 260)
+    //        view.layer.insertSublayer(playerLayer, at: 1)
+            player.volume = 0
+            player.play()
+        }
+        
         cell.layer.insertSublayer(playerLayer, at: 1)
         return cell
     }

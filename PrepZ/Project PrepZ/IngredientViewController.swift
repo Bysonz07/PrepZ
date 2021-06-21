@@ -13,28 +13,10 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
         "New York",
         "London",
         "Hongkong",
-        "Seatlle",
-        "New York",
-        "London",
-        "Hongkong",
-        "Seatlle",
-        "New York",
-        "London",
-        "Hongkong",
-        "Seatlle",
-        "New York",
-        "London",
-        "Hongkong",
-        "Seatlle",
-        "New York",
-        "London",
-        "Hongkong",
-        "Seatlle",
-        "New York",
-        "London",
-        "Hongkong",
         "Seatlle"
     ]
+    
+    var ingredients = [ingreDient]()
 
     private let tableView: UITableView = {
         let tableView = UITableView()
@@ -45,7 +27,7 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
-        self.title = "Chicken"
+        self.title = "Vegetables"
         navigationController?.navigationBar.tintColor = #colorLiteral(red: 0.7960784314, green: 0.5607843137, blue: 0.4901960784, alpha: 1)
         let backButton = UIBarButtonItem()
         backButton.title = "Home"
@@ -57,8 +39,11 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
         let header = StretchyTableHeaderView(frame: CGRect(x: 0, y: 0,
                                                            width: view.frame.size.width,
                                                            height: view.frame.size.width))
-        header.imageView.image = UIImage(named: "CHICKEN")
+        header.imageView.image = UIImage(named: "VEGETABLES")
         tableView.tableHeaderView = header
+        ingredients.append(ingreDient(imageName: "CHIOPPING_BOK_CHOY", titleText: "Chopping Bok Choy", subTitleText: "Preparing bok choy for saute or any kind of dish by chopping it.", timerText: "30 minutes"))
+        ingredients.append(ingreDient(imageName: "CUTTING_SPINACH", titleText: "Cutting Spinach", subTitleText: "Preparing spinach by cutting it to little pieces", timerText: "30 minutes"))
+        
         // Do any additional setup after loading the view.
     }
     
@@ -87,18 +72,17 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
             let cell = tableView.dequeueReusableCell(withIdentifier: "ingredientCell", for: indexPath)
             cell.textLabel?.lineBreakMode = .byWordWrapping
             cell.textLabel?.numberOfLines = 0
-            cell.textLabel?.text = "Chicken is prone to cross contamination when it comes into contact with any other food products, especially ones that are already cooked or ones that will be eaten raw, such as salad vegetables or greens."
+            cell.textLabel?.text = "Leafy greens and other vegetable row crops are a major source of E. coli O157 infections."
             return cell
         } else if indexPath.section == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "ingredientCell", for: indexPath)
             cell.textLabel?.lineBreakMode = .byWordWrapping
             cell.textLabel?.numberOfLines = 0
-            cell.textLabel?.text = "1. Wash your hands for 20 secs before and after food preparation\n2. Use a separate cutting board.\n3. Clean and sanitize counter tops, cutting boards and utensils before and after food preparation."
+            cell.textLabel?.text = "1. Wash your hands for 20 secs before and after food preparation\n2. Discard any torn or bruised parts.\n3. Rinse under running water and use your hands to gently rub the surface of the leaves."
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: FactTableViewCell.identifier, for: indexPath) as! FactTableViewCell
-            
-            cell.configure(with: "brining_chicken", title: "Brining Chicken", subTitle: "Breaking down a\nwhole chicken into pieces\nfor several meals.", timer: "30 Minutes")
+            cell.configure(with: ingredients[indexPath.row].imageName, title: ingredients[indexPath.row].titleText, subTitle: ingredients[indexPath.row].subTitleText, timer: ingredients[indexPath.row].timerText)
             return cell
         }
        
@@ -141,4 +125,11 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
     }
     */
 
+}
+
+struct ingreDient{
+    let imageName: String
+    let titleText: String
+    let subTitleText: String
+    let timerText: String
 }
