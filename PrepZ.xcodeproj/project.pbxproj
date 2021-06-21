@@ -8,11 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B12678AF5A00BDEDA5 /* VoiceController.swift */; };
-		914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914428B32678DC7500BDEDA5 /* voiceControl.storyboard */; };
-		914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */; };
 		91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A77117267755EB00314D55 /* StepByStepSlide.swift */; };
-		91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */; };
-		91CFEF43267A70710097B0AD /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CFEF42267A70710097B0AD /* VoiceViewController.swift */; };
 		BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */; };
 		BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */; };
 		BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706B2669FE8500DFF9BE /* AppDelegate.swift */; };
@@ -26,9 +22,6 @@
 		BF6770A0266A044900DFF9BE /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF67709E266A044900DFF9BE /* Categories.storyboard */; };
 		BF6770A2266A046C00DFF9BE /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770A1266A046C00DFF9BE /* CategoriesViewController.swift */; };
 		BF6770A4266A08D500DFF9BE /* Preview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6770A3266A08D500DFF9BE /* Preview.storyboard */; };
-		BF6770A6266A08E100DFF9BE /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */; };
-		BF6770A8266A090B00DFF9BE /* StepByStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6770A7266A090B00DFF9BE /* StepByStep.storyboard */; };
-		BF6770AC266A0AD800DFF9BE /* StepByStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */; };
 		BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6770B0266A0EBD00DFF9BE /* SearchViewController.swift */; };
 		BF76DAA12680855200B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA592680853F00B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 */; };
 		BF76DAA22680855200B10706 /* Apple_Step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF76DA5A2680853F00B10706 /* Apple_Step4.mp4 */; };
@@ -135,11 +128,7 @@
 
 /* Begin PBXFileReference section */
 		914428B12678AF5A00BDEDA5 /* VoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceController.swift; sourceTree = "<group>"; };
-		914428B32678DC7500BDEDA5 /* voiceControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = voiceControl.storyboard; sourceTree = "<group>"; };
-		914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPreviewViewController.swift; sourceTree = "<group>"; };
 		91A77117267755EB00314D55 /* StepByStepSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepSlide.swift; sourceTree = "<group>"; };
-		91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepCollectionViewCell.swift; sourceTree = "<group>"; };
-		91CFEF42267A70710097B0AD /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
 		BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BF6770682669FE8400DFF9BE /* PrepZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,9 +148,6 @@
 		BF67709F266A044900DFF9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PrepZ/Base.lproj/Categories.storyboard; sourceTree = "<group>"; };
 		BF6770A1266A046C00DFF9BE /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		BF6770A3266A08D500DFF9BE /* Preview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Preview.storyboard; sourceTree = "<group>"; };
-		BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
-		BF6770A7266A090B00DFF9BE /* StepByStep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StepByStep.storyboard; sourceTree = "<group>"; };
-		BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepViewController.swift; sourceTree = "<group>"; };
 		BF6770B0266A0EBD00DFF9BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BF76DA592680853F00B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4"; sourceTree = "<group>"; };
 		BF76DA5A2680853F00B10706 /* Apple_Step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple_Step4.mp4; sourceTree = "<group>"; };
@@ -274,26 +260,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		914428B5267A648E00BDEDA5 /* StepByStep Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BF6770AB266A0AD800DFF9BE /* StepByStepViewController.swift */,
-				914428B6267A64D100BDEDA5 /* StepPreviewViewController.swift */,
-				91CFEF42267A70710097B0AD /* VoiceViewController.swift */,
-			);
-			path = "StepByStep Controller";
-			sourceTree = "<group>";
-		};
-		91A7711926775F4E00314D55 /* StepByStep View */ = {
-			isa = PBXGroup;
-			children = (
-				BF6770A7266A090B00DFF9BE /* StepByStep.storyboard */,
-				91A7711A26775FCB00314D55 /* StepByStepCollectionViewCell.swift */,
-				914428B32678DC7500BDEDA5 /* voiceControl.storyboard */,
-			);
-			path = "StepByStep View";
-			sourceTree = "<group>";
-		};
 		BF67705F2669FE8400DFF9BE = {
 			isa = PBXGroup;
 			children = (
@@ -365,7 +331,6 @@
 		BF6770AE266A0B0800DFF9BE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				91A7711926775F4E00314D55 /* StepByStep View */,
 				BF6770A3266A08D500DFF9BE /* Preview.storyboard */,
 				BF6770712669FE8500DFF9BE /* AnotherMain.storyboard */,
 				BF67709E266A044900DFF9BE /* Categories.storyboard */,
@@ -377,10 +342,8 @@
 		BF6770AF266A0B0F00DFF9BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				914428B5267A648E00BDEDA5 /* StepByStep Controller */,
 				BF6770B0266A0EBD00DFF9BE /* SearchViewController.swift */,
 				BF6770A1266A046C00DFF9BE /* CategoriesViewController.swift */,
-				BF6770A5266A08E100DFF9BE /* PreviewViewController.swift */,
 				BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */,
 				914428B12678AF5A00BDEDA5 /* VoiceController.swift */,
 			);
@@ -836,7 +799,6 @@
 				BF6770782669FE8500DFF9BE /* Assets.xcassets in Resources */,
 				BF76DB03268088AC00B10706 /* ProductTableViewCell.xib in Resources */,
 				BF76DAAC2680855200B10706 /* Watermelon_Step3.mp4 in Resources */,
-				BF6770A8266A090B00DFF9BE /* StepByStep.storyboard in Resources */,
 				BF76DACE2680855200B10706 /* BeefPowdering_Step2.mp4 in Resources */,
 				BF76DAB62680855200B10706 /* spinach_Step2.mp4 in Resources */,
 				BF76DAC42680855200B10706 /* DryAgingBeef_Step3.mp4 in Resources */,
@@ -884,7 +846,6 @@
 				BF76DAD62680855200B10706 /* sectioningChicken_Step2.mp4 in Resources */,
 				BF76DAD42680855200B10706 /* sectioningChicken_Step3.mp4 in Resources */,
 				BF76DACB2680855200B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 in Resources */,
-				914428B42678DC7500BDEDA5 /* voiceControl.storyboard in Resources */,
 				BF76DB5A268089AF00B10706 /* category_Beef.json in Resources */,
 				BF76DACC2680855200B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 in Resources */,
 				BF76DACF2680855200B10706 /* BeefPowdering_Step1.mp4 in Resources */,
@@ -921,20 +882,16 @@
 				BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */,
 				BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */,
 				BF76DAFE268088AC00B10706 /* CategoryTableViewCell.swift in Sources */,
-				BF6770AC266A0AD800DFF9BE /* StepByStepViewController.swift in Sources */,
 				BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */,
-				91A7711B26775FCB00314D55 /* StepByStepCollectionViewCell.swift in Sources */,
 				BF76DB06268088AC00B10706 /* StepByStepCollectionViewCell.swift in Sources */,
 				BF76DB00268088AC00B10706 /* FactTableViewCell.swift in Sources */,
 				BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */,
-				914428B7267A64D100BDEDA5 /* StepPreviewViewController.swift in Sources */,
 				91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */,
 				BF76DB082680895900B10706 /* StretchyTableHeaderView.swift in Sources */,
 				BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */,
 				BF76DADF268086D200B10706 /* ViewController.swift in Sources */,
 				BF76DB04268088AC00B10706 /* StepByStepViewController.swift in Sources */,
 				BF76DADE268086D200B10706 /* PreviewViewController.swift in Sources */,
-				91CFEF43267A70710097B0AD /* VoiceViewController.swift in Sources */,
 				BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */,
 				BF76DAE8268086E500B10706 /* OnBoardingSlide.swift in Sources */,
 				BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */,
@@ -942,7 +899,6 @@
 				BF76DADD268086D200B10706 /* IngredientViewController.swift in Sources */,
 				BFBD2D562671AC6200481A35 /* CategoriesCollectionViewCell.swift in Sources */,
 				BF6770A2266A046C00DFF9BE /* CategoriesViewController.swift in Sources */,
-				BF6770A6266A08E100DFF9BE /* PreviewViewController.swift in Sources */,
 				914428B22678AF5A00BDEDA5 /* VoiceController.swift in Sources */,
 				BF76DAE7268086E500B10706 /* OnBoardingViewController.swift in Sources */,
 			);
