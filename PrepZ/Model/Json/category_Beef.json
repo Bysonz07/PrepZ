@@ -1,0 +1,37 @@
+{
+    "image" : "meat",
+    "fact" : "Beef contains higher amounts of iron than chicken or fish. Fresh, lean beef is rich in various vitamins and minerals, especially iron and zinc. Therefore, moderate intake of beef can be recommended as part of a healthy diet.",
+    "concern":"1. Wash your hands for 20 secs before and after food preparation.\n2. Use a seperate cutting board.\n3. Clean and sanitize counter tops, cutting boards and utensils before and after food preparation.",
+    "data": [
+        {
+        "title": "Beef Trimming",
+        "subTitle": "Chopping beef into several mini pieces."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Rib Boning",
+        "subTitle": "Removing the bon from the rib."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Beef Defrosting",
+        "subTitle": "Defrosting the beef before cooking to cook it easier."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Rib Frenching",
+        "subTitle": "Chopping rib of a beef is different from loin type."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Beef Dry Aging",
+        "subTitle": "Dry aging  a beef can make the beef it self last longer."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Beef Tenderizing (Powdering)",
+        "subTitle": "A commercial powder can make a beef more tender."
+        "timer" : "30 minutes"
+        }
+    ]
+}

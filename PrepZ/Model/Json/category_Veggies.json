@@ -1,0 +1,17 @@
+{
+    "image" : "Vegetables",
+    "fact" : "Leafy greens and other vegetable row crops are a major source of E.coli Infections.",
+    "concern":"1. Wash your hands for 20 secs before and after food preparation\n2. Discard any torn or bruised parts. 3. Rinse under running water and use your hands to gently rub the surface of the leaves.",
+    "data": [
+        {
+        "title": "Cutting Spinach",
+        "subTitle": "Prepare onion by chopping it to little pieces."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Chopping Bok Choy",
+        "subTitle": "Preparing bok choy for saute or any kind of dish by chopping it."
+        "timer" : "30 minutes"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "image" : "fruit",
+    "fact" : "Eating fruit not only provides nutrients vital for health and maintenance of your body. Research suggests fruit may help reduce the risk of diabetes, obesity, stroke, heart disease, and cancer. Diets rich in foods containing fiber (like most fruits) may reduce the risk of heart disease, obesity, and Type 2 diabetes, and eating fruits rich in potassium may lower blood pressure.",
+    "concern":"1. Wash your hands for 20 secs before and after food preparation\n 2. Clean and sanitize counter tops, cutting boards and utensils before and after food preparation.",
+    "data": [
+        {
+        "title": "Apple Slicing & Storing",
+        "subTitle": "Slicing and storing apple to prevent browning."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Watermelon Slicing",
+        "subTitle": "Slicing watermelon to keep it firm and juicy."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Avocado Slicing",
+        "subTitle": "Slicing avocado and remove seed the right way."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Mango Slicing",
+        "subTitle": "Slicing a mango needs a very soft touch to hold the firmness of mango."
+        "timer" : "30 minutes"
+        }
+    ]
+}

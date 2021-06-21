@@ -1,0 +1,17 @@
+{
+    "image" : "chicken",
+    "fact" : "Chicken is prone to cross contamination when it comes into contact with any other food products, especially ones that are already cooked or ones that will be eaten raw, such as salad vegetables or greens.",
+    "concern":"1. Wash your hands for 20 secs before and after food preparation\n2. Use a separate cutting board.\n 3. Clean and sanitize counter tops, cutting boards and utensils before and after food preparation.",
+    "data": [
+        {
+        "title": "Sectioning Chicken",
+        "subTitle": "Breaking down a whole chicken into pieces for several meals."
+        "timer" : "30 minutes"
+        },
+        {
+        "title": "Brining Chicken",
+        "subTitle": "Simple method for adding flavour and tenderness to the chicken."
+        "timer" : "30 minutes"
+        }
+    ]
+}

@@ -15,6 +15,14 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
     let sectionHeaderViewid = "SectionHeaderView"
     var meats = [Meats]()
     
+    struct Beef : Codable{
+        let image: String
+        let fact: String
+        let concern: String
+        let data : [String]
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //Setup collectionView
@@ -32,6 +40,9 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
             meat?.desc = "How to prepare meat"
             meats.append(meat!)
         }
+        if let localData = self.readLocalFile(forName: "category_Beef"){
+            self.parse(jsonData: localData)
+        }
         
         howToOutlet.reloadData()
     }
@@ -46,6 +57,26 @@ class PreviewViewController: UIViewController,UICollectionViewDataSource,UIColle
         // Pass the selected object to the new view controller.
     }
     */
+    func readLocalFile(forName name: String) -> Data? {
+        do {
+            if let bundlePath = Bundle.main.path(forResource: name, ofType: "json"),
+               let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8){
+                return jsonData
+            }
+        } catch{
+            print(error)
+        }
+        return nil
+    }
+    
+    func parse(jsonData: Data){
+        do {
+            let decodedData = try JSONDecoder().decode(Beef.self, from: jsonData)
+            print(decodedData)
+        } catch {
+            print("Decode Error")
+        }
+    }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
