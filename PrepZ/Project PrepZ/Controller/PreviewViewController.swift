@@ -9,7 +9,8 @@ import UIKit
 
 class PreviewViewController: UIViewController {
 
-    
+    @IBAction func unwind( _ seg: UIStoryboardSegue) {
+    }
     @IBOutlet weak var startOutlet: UIButton!
     @IBOutlet weak var voiceSwitchOutlet: UIButton!
     

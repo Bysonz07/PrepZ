@@ -11,6 +11,19 @@
 		91A77118267755EB00314D55 /* StepByStepSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A77117267755EB00314D55 /* StepByStepSlide.swift */; };
 		BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */; };
 		BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */; };
+		BF0E187F26813A2800105451 /* SearchKuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E187E26813A2800105451 /* SearchKuViewController.swift */; };
+		BF0E188126813A3000105451 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0E188026813A3000105451 /* Search.storyboard */; };
+		BF0E18852681443600105451 /* InfoDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0E18842681443600105451 /* InfoDetail.storyboard */; };
+		BF0E188A268164FA00105451 /* category_Beef.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E1886268164FA00105451 /* category_Beef.json */; };
+		BF0E188B268164FA00105451 /* category_Veggies.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E1887268164FA00105451 /* category_Veggies.json */; };
+		BF0E188C268164FA00105451 /* category_Chicken.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E1888268164FA00105451 /* category_Chicken.json */; };
+		BF0E188D268164FA00105451 /* category_Fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E1889268164FA00105451 /* category_Fruit.json */; };
+		BF0E188F2681650C00105451 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E188E2681650C00105451 /* JsonModel.swift */; };
+		BF0E189426816A5C00105451 /* fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E189026816A5C00105451 /* fruit.json */; };
+		BF0E189526816A5C00105451 /* chicken.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E189126816A5C00105451 /* chicken.json */; };
+		BF0E189626816A5C00105451 /* veggies.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E189226816A5C00105451 /* veggies.json */; };
+		BF0E189726816A5C00105451 /* beef.json in Resources */ = {isa = PBXBuildFile; fileRef = BF0E189326816A5C00105451 /* beef.json */; };
+		BF0E189A268172DA00105451 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E1899268172DA00105451 /* VoiceViewController.swift */; };
 		BF67706C2669FE8500DFF9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706B2669FE8500DFF9BE /* AppDelegate.swift */; };
 		BF67706E2669FE8500DFF9BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */; };
 		BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF67706F2669FE8500DFF9BE /* HomePageViewController.swift */; };
@@ -98,10 +111,6 @@
 		BF76DB05268088AC00B10706 /* StepByStep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DAFA268088AC00B10706 /* StepByStep.storyboard */; };
 		BF76DB06268088AC00B10706 /* StepByStepCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DAFB268088AC00B10706 /* StepByStepCollectionViewCell.swift */; };
 		BF76DB082680895900B10706 /* StretchyTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF76DB072680895900B10706 /* StretchyTableHeaderView.swift */; };
-		BF76DB5A268089AF00B10706 /* category_Beef.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB0A268089AF00B10706 /* category_Beef.json */; };
-		BF76DB93268089AF00B10706 /* category_Fruit.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB56268089AF00B10706 /* category_Fruit.json */; };
-		BF76DB94268089AF00B10706 /* category_Veggies.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB57268089AF00B10706 /* category_Veggies.json */; };
-		BF76DB95268089AF00B10706 /* category_Chicken.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB58268089AF00B10706 /* category_Chicken.json */; };
 		BF76DB96268089AF00B10706 /* categoryProduct.json in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB59268089AF00B10706 /* categoryProduct.json */; };
 		BF76DB9826808A6A00B10706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB9726808A6A00B10706 /* LaunchScreen.storyboard */; };
 		BF76DB9A26808A8500B10706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF76DB9926808A8500B10706 /* Main.storyboard */; };
@@ -131,6 +140,19 @@
 		91A77117267755EB00314D55 /* StepByStepSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepByStepSlide.swift; sourceTree = "<group>"; };
 		BF0624D9266DF6A100E8D217 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BF0624DA266DF6A100E8D217 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BF0E187E26813A2800105451 /* SearchKuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchKuViewController.swift; sourceTree = "<group>"; };
+		BF0E188026813A3000105451 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		BF0E18842681443600105451 /* InfoDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InfoDetail.storyboard; sourceTree = "<group>"; };
+		BF0E1886268164FA00105451 /* category_Beef.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Beef.json; sourceTree = "<group>"; };
+		BF0E1887268164FA00105451 /* category_Veggies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Veggies.json; sourceTree = "<group>"; };
+		BF0E1888268164FA00105451 /* category_Chicken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Chicken.json; sourceTree = "<group>"; };
+		BF0E1889268164FA00105451 /* category_Fruit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Fruit.json; sourceTree = "<group>"; };
+		BF0E188E2681650C00105451 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		BF0E189026816A5C00105451 /* fruit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fruit.json; sourceTree = "<group>"; };
+		BF0E189126816A5C00105451 /* chicken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chicken.json; sourceTree = "<group>"; };
+		BF0E189226816A5C00105451 /* veggies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = veggies.json; sourceTree = "<group>"; };
+		BF0E189326816A5C00105451 /* beef.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = beef.json; sourceTree = "<group>"; };
+		BF0E1899268172DA00105451 /* VoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
 		BF6770682669FE8400DFF9BE /* PrepZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF67706B2669FE8500DFF9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF67706D2669FE8500DFF9BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -224,10 +246,6 @@
 		BF76DAFA268088AC00B10706 /* StepByStep.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StepByStep.storyboard; sourceTree = "<group>"; };
 		BF76DAFB268088AC00B10706 /* StepByStepCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepByStepCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF76DB072680895900B10706 /* StretchyTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StretchyTableHeaderView.swift; sourceTree = "<group>"; };
-		BF76DB0A268089AF00B10706 /* category_Beef.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Beef.json; sourceTree = "<group>"; };
-		BF76DB56268089AF00B10706 /* category_Fruit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Fruit.json; sourceTree = "<group>"; };
-		BF76DB57268089AF00B10706 /* category_Veggies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Veggies.json; sourceTree = "<group>"; };
-		BF76DB58268089AF00B10706 /* category_Chicken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_Chicken.json; sourceTree = "<group>"; };
 		BF76DB59268089AF00B10706 /* categoryProduct.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryProduct.json; sourceTree = "<group>"; };
 		BF76DB9726808A6A00B10706 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF76DB9926808A8500B10706 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -260,6 +278,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF0E187D26813A1700105451 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E188026813A3000105451 /* Search.storyboard */,
+				BF0E187E26813A2800105451 /* SearchKuViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BF0E189826816D8300105451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF76DAE0268086E500B10706 /* OnBoarding */,
+				BF76DAE9268088AC00B10706 /* TableCollectionCell */,
+				BF76DB9926808A8500B10706 /* Main.storyboard */,
+				BF0E18842681443600105451 /* InfoDetail.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF0E189B268172E600105451 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E187D26813A1700105451 /* Search */,
+				BF76DAF8268088AC00B10706 /* StepByStep */,
+				BF76DADA268086D200B10706 /* IngredientViewController.swift */,
+				BF76DADB268086D200B10706 /* PreviewViewController.swift */,
+				BF76DADC268086D200B10706 /* ViewController.swift */,
+				BF0E1899268172DA00105451 /* VoiceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BF67705F2669FE8400DFF9BE = {
 			isa = PBXGroup;
 			children = (
@@ -560,13 +611,8 @@
 		BF76DAD9268086C000B10706 /* Project PrepZ */ = {
 			isa = PBXGroup;
 			children = (
-				BF76DB9926808A8500B10706 /* Main.storyboard */,
-				BF76DAF8268088AC00B10706 /* StepByStep */,
-				BF76DAE9268088AC00B10706 /* TableCollectionCell */,
-				BF76DAE0268086E500B10706 /* OnBoarding */,
-				BF76DADA268086D200B10706 /* IngredientViewController.swift */,
-				BF76DADB268086D200B10706 /* PreviewViewController.swift */,
-				BF76DADC268086D200B10706 /* ViewController.swift */,
+				BF0E189826816D8300105451 /* View */,
+				BF0E189B268172E600105451 /* Controller */,
 			);
 			path = "Project PrepZ";
 			sourceTree = "<group>";
@@ -658,11 +704,16 @@
 		BF76DB09268089AF00B10706 /* Json */ = {
 			isa = PBXGroup;
 			children = (
-				BF76DB0A268089AF00B10706 /* category_Beef.json */,
-				BF76DB56268089AF00B10706 /* category_Fruit.json */,
-				BF76DB57268089AF00B10706 /* category_Veggies.json */,
-				BF76DB58268089AF00B10706 /* category_Chicken.json */,
+				BF0E189326816A5C00105451 /* beef.json */,
+				BF0E189126816A5C00105451 /* chicken.json */,
+				BF0E189026816A5C00105451 /* fruit.json */,
+				BF0E189226816A5C00105451 /* veggies.json */,
+				BF0E1886268164FA00105451 /* category_Beef.json */,
+				BF0E1888268164FA00105451 /* category_Chicken.json */,
+				BF0E1889268164FA00105451 /* category_Fruit.json */,
+				BF0E1887268164FA00105451 /* category_Veggies.json */,
 				BF76DB59268089AF00B10706 /* categoryProduct.json */,
+				BF0E188E2681650C00105451 /* JsonModel.swift */,
 			);
 			path = Json;
 			sourceTree = "<group>";
@@ -790,15 +841,17 @@
 				BF76DAB72680855200B10706 /* spinach_Step1.mp4 in Resources */,
 				BF76DAAB2680855200B10706 /* Watermelon_Step2.mp4 in Resources */,
 				BF76DAB12680855200B10706 /* Mango_Step4.mp4 in Resources */,
+				BF0E18852681443600105451 /* InfoDetail.storyboard in Resources */,
 				BF76DAE6268086E500B10706 /* OnBoarding.storyboard in Resources */,
-				BF76DB94268089AF00B10706 /* category_Veggies.json in Resources */,
 				BF76DAD82680855200B10706 /* sectioningChicken_Step4.mp4 in Resources */,
 				BF6770A4266A08D500DFF9BE /* Preview.storyboard in Resources */,
 				BF76DAC52680855200B10706 /* DryAgingBeef_Step2.mp4 in Resources */,
 				BF76DAB22680855200B10706 /* Mango_Step1.mp4 in Resources */,
+				BF0E189626816A5C00105451 /* veggies.json in Resources */,
 				BF6770782669FE8500DFF9BE /* Assets.xcassets in Resources */,
 				BF76DB03268088AC00B10706 /* ProductTableViewCell.xib in Resources */,
 				BF76DAAC2680855200B10706 /* Watermelon_Step3.mp4 in Resources */,
+				BF0E188C268164FA00105451 /* category_Chicken.json in Resources */,
 				BF76DACE2680855200B10706 /* BeefPowdering_Step2.mp4 in Resources */,
 				BF76DAB62680855200B10706 /* spinach_Step2.mp4 in Resources */,
 				BF76DAC42680855200B10706 /* DryAgingBeef_Step3.mp4 in Resources */,
@@ -808,14 +861,17 @@
 				BF76DAC92680855200B10706 /* RibFrenching_Step2.mp4 in Resources */,
 				BF76DAA12680855200B10706 /* How to Keep Apples from Turning Brown in the Lunchbox +  Homemade Apple Cups.mp4 in Resources */,
 				BF76DAA62680855200B10706 /* How to Preserve Avocados_480p.mp4 in Resources */,
+				BF0E188D268164FA00105451 /* category_Fruit.json in Resources */,
 				BF76DAC62680855200B10706 /* How To Butcher A Beef Tenderloin.mp4 in Resources */,
+				BF0E188B268164FA00105451 /* category_Veggies.json in Resources */,
 				BF76DAC22680855200B10706 /* DryAgingBeef_Step4.mp4 in Resources */,
+				BF0E189726816A5C00105451 /* beef.json in Resources */,
 				BF76DAC32680855200B10706 /* DryAgingBeef_Step1.mp4 in Resources */,
 				BF76DB9826808A6A00B10706 /* LaunchScreen.storyboard in Resources */,
 				BF76DAFF268088AC00B10706 /* CategoryTableViewCell.xib in Resources */,
+				BF0E188A268164FA00105451 /* category_Beef.json in Resources */,
 				BF76DAB52680855200B10706 /* spinach_Step3.mp4 in Resources */,
-				BF76DB95268089AF00B10706 /* category_Chicken.json in Resources */,
-				BF76DB93268089AF00B10706 /* category_Fruit.json in Resources */,
+				BF0E189426816A5C00105451 /* fruit.json in Resources */,
 				BF76DAA52680855200B10706 /* Apple_Step3.mp4 in Resources */,
 				BF76DABC2680855200B10706 /* BeefDefrost_Step2.mp4 in Resources */,
 				BF76DAAA2680855200B10706 /* Avocado_Step1.mp4 in Resources */,
@@ -827,6 +883,7 @@
 				BF76DAC12680855200B10706 /* How to Dry Age Steak at Home | No Equipment Dry Aging.mp4 in Resources */,
 				BF76DAA92680855200B10706 /* Avocado_Step2.mp4 in Resources */,
 				BF76DAB82680855200B10706 /* bokChoy_Step2.mp4 in Resources */,
+				BF0E189526816A5C00105451 /* chicken.json in Resources */,
 				BF76DABF2680855200B10706 /* RibBoning_Step1.mp4 in Resources */,
 				BF76DAB32680855200B10706 /* Mango_Step3.mp4 in Resources */,
 				BF76DAC82680855200B10706 /* TrimmingTenderloin_Step1.mp4 in Resources */,
@@ -843,10 +900,10 @@
 				BF76DABA2680855200B10706 /* bokChoy_Step4.mp4 in Resources */,
 				BF76DAA32680855200B10706 /* Apple_Step1.mp4 in Resources */,
 				BF76DAA72680855200B10706 /* Avocado_Step4.mp4 in Resources */,
+				BF0E188126813A3000105451 /* Search.storyboard in Resources */,
 				BF76DAD62680855200B10706 /* sectioningChicken_Step2.mp4 in Resources */,
 				BF76DAD42680855200B10706 /* sectioningChicken_Step3.mp4 in Resources */,
 				BF76DACB2680855200B10706 /* Gordon Ramsay Demonstrates How To French Trim A Rack Of Lamb | Season 8 Ep. 6 | MASTERCHEF.mp4 in Resources */,
-				BF76DB5A268089AF00B10706 /* category_Beef.json in Resources */,
 				BF76DACC2680855200B10706 /* Cooking Tips_ How To Tenderize ANY Meat!.mp4 in Resources */,
 				BF76DACF2680855200B10706 /* BeefPowdering_Step1.mp4 in Resources */,
 				BF76DABD2680855200B10706 /* How to Defrost Meat Quickly & Safely.mp4 in Resources */,
@@ -880,7 +937,9 @@
 				BF76DAFC268088AC00B10706 /* RecentlyCollectionViewCell.swift in Sources */,
 				BF76DAE5268086E500B10706 /* OnBoardingCollectionViewCell.swift in Sources */,
 				BF6770702669FE8500DFF9BE /* HomePageViewController.swift in Sources */,
+				BF0E188F2681650C00105451 /* JsonModel.swift in Sources */,
 				BF0624DC266DF6A100E8D217 /* Categories+CoreDataProperties.swift in Sources */,
+				BF0E189A268172DA00105451 /* VoiceViewController.swift in Sources */,
 				BF76DAFE268088AC00B10706 /* CategoryTableViewCell.swift in Sources */,
 				BF6770B1266A0EBD00DFF9BE /* SearchViewController.swift in Sources */,
 				BF76DB06268088AC00B10706 /* StepByStepCollectionViewCell.swift in Sources */,
@@ -895,6 +954,7 @@
 				BF6770762669FE8500DFF9BE /* PrepZ.xcdatamodeld in Sources */,
 				BF76DAE8268086E500B10706 /* OnBoardingSlide.swift in Sources */,
 				BF0624DB266DF6A100E8D217 /* Categories+CoreDataClass.swift in Sources */,
+				BF0E187F26813A2800105451 /* SearchKuViewController.swift in Sources */,
 				BF76DB02268088AC00B10706 /* ProductTableViewCell.swift in Sources */,
 				BF76DADD268086D200B10706 /* IngredientViewController.swift in Sources */,
 				BFBD2D562671AC6200481A35 /* CategoriesCollectionViewCell.swift in Sources */,

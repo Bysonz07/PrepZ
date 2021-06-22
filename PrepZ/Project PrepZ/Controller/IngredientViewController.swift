@@ -15,7 +15,7 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
         "Hongkong",
         "Seatlle"
     ]
-    
+    var result: Result?
     var ingredients = [ingreDient]()
 
     private let tableView: UITableView = {
@@ -26,11 +26,13 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        parseJSON()
         view.addSubview(tableView)
         self.title = "Vegetables"
         navigationController?.navigationBar.tintColor = #colorLiteral(red: 0.7960784314, green: 0.5607843137, blue: 0.4901960784, alpha: 1)
         let backButton = UIBarButtonItem()
         backButton.title = "Home"
+
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
         tableView.delegate = self
         tableView.dataSource = self
@@ -82,7 +84,7 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: FactTableViewCell.identifier, for: indexPath) as! FactTableViewCell
-            cell.configure(with: ingredients[indexPath.row].imageName, title: ingredients[indexPath.row].titleText, subTitle: ingredients[indexPath.row].subTitleText, timer: ingredients[indexPath.row].timerText)
+            cell.configure(with: ingredients[indexPath.row].imageName, title: ingredients[indexPath.row].titleText, subTitle: ingredients[indexPath.row].subTitleText, timer: (result?.data[indexPath.row].timer)!)
             return cell
         }
        
@@ -113,7 +115,27 @@ class IngredientViewController: UIViewController, UITableViewDelegate,UITableVie
         guard let header = tableView.tableHeaderView as? StretchyTableHeaderView else { return  }
         header.scrollViewDidScroll(scrollView: tableView)
     }
-
+    
+    private func parseJSON(){
+        guard let path = Bundle.main.path(forResource: "category_Chicken", ofType: "json") else { return }
+        let url = URL(fileURLWithPath: path)
+        
+        do{
+            let jsonData = try Data(contentsOf: url)
+            result = try JSONDecoder().decode(Result.self, from: jsonData)
+            if let result = result {
+                print(result)
+                print("\nTitle:\(result.data[0].title)")
+                
+            } else {
+                print("Failed to parse")
+            }
+        }
+        catch{
+            
+            print("Error\(error)")
+        }
+    }
 
     /*
     // MARK: - Navigation

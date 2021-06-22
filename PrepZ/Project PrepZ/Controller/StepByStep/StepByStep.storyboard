@@ -228,6 +228,9 @@
                                 <state key="normal">
                                     <imageReference key="image" image="chevron.left.circle.fill" catalog="system" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <action selector="prevTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FAR-jE-E5O"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjR-cR-cdX">
                                 <rect key="frame" x="125" y="715" width="140" height="37"/>
@@ -241,6 +244,9 @@
                                         <integer key="value" value="14"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="4JC-oN-YrQ" kind="unwind" unwindAction="unwind:" id="WeC-HZ-vpZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Note :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOK-Ru-jG3">
                                 <rect key="frame" x="38" y="581" width="314" height="21"/>
@@ -273,6 +279,9 @@
                                 <state key="normal">
                                     <imageReference key="image" image="chevron.right.circle.fill" catalog="system" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="dTE-2p-e4z"/>
+                                </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="f3a-wi-iRF">
                                 <rect key="frame" x="134" y="383" width="120.33333333333334" height="26.333333333333314"/>
@@ -295,11 +304,14 @@
                         <outlet property="doneButton" destination="AjR-cR-cdX" id="vU0-SZ-OAA"/>
                         <outlet property="nextButton" destination="8wu-zD-01S" id="f5I-mX-njV"/>
                         <outlet property="noteOutlet" destination="cOK-Ru-jG3" id="cEu-Wj-EsI"/>
+                        <outlet property="noteOutlet2" destination="6if-L1-boF" id="gPt-6U-wwe"/>
+                        <outlet property="noteOutletBg" destination="d1c-Ey-zRG" id="nfw-m3-JtO"/>
                         <outlet property="pageControl" destination="f3a-wi-iRF" id="6lW-PQ-nd7"/>
                         <outlet property="prevButton" destination="X3G-XZ-W62" id="50R-HK-XJl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="4JC-oN-YrQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1333.8461538461538" y="368.95734597156394"/>
         </scene>

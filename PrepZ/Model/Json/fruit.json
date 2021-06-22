@@ -1,0 +1,89 @@
+{
+    "data" : {
+        "beefTrimming": [
+            {
+                "step":"Remove Outer Fat",
+                "stepDetail":"Using a sharp kife, remove the layers of outer fat from tenderloin. The layers should pull away easily after a knife has been inserted between the fat and the meat."
+            },
+            {
+                "step":"Cut The Beef",
+                "stepDetail":"Cut the beef into smaller cuts into the size that you desired!"
+            },
+            {
+                "step":"You are done!",
+                "stepDetail":"You can sace money by purchasing larger portions of beef and then cutting them into smaller cuts at home. The piece are easier to cut if the beef is placed in the freezer for a few minutes to firm up.\n Now that you're done, be sure to wash up thoroughly and use disinfecting soap!"
+            }
+        ],
+        "ribBoning": [
+            {
+                "step":"Remove the Backbone",
+                "stepDetail":"Rmoce the backbone from the rib roasts with meat saw or sharp knife."
+            },
+            {
+                "step":"Tie the Rib",
+                "stepDetail":"The boneless rib roast can then be rolled and tied before its roasted"
+            },
+            {
+                "step":"You are done!",
+                "stepDetail":"Many cuts of beef purchased at a food store or specialty meat market are ready to cook, but some cuts may need additional trimming or boning before they can be cooked.\n Now that you're done, be sure to wash up thoroughly and use disinfecting soap!"
+            }
+        ],
+        "beefDefrost":[
+            {
+                "step":"Remove the Backbone",
+                "stepDetail":"Rmoce the backbone from the rib roasts with meat saw or sharp knife."
+            },
+            {
+                "step":"Tie the Rib",
+                "stepDetail":"The boneless rib roast can then be rolled and tied before its roasted"
+            },
+            {
+                "step":"You are done!",
+                "stepDetail":"Many cuts of beef purchased at a food store or specialty meat market are ready to cook, but some cuts may need additional trimming or boning before they can be cooked.\n Now that you're done, be sure to wash up thoroughly and use disinfecting soap!"
+            }
+        ],
+        "ribFrenching":[
+            {
+                "step":"Remove the Backbone",
+                "stepDetail":"Rmoce the backbone from the rib roasts with meat saw or sharp knife."
+            },
+            {
+                "step":"Tie the Rib",
+                "stepDetail":"The boneless rib roast can then be rolled and tied before its roasted"
+            },
+            {
+                "step":"You are done!",
+                "stepDetail":"Many cuts of beef purchased at a food store or specialty meat market are ready to cook, but some cuts may need additional trimming or boning before they can be cooked.\n Now that you're done, be sure to wash up thoroughly and use disinfecting soap!"
+            }
+        ],
+        "beefDry":[
+            {
+                "step":"Remove the Backbone",
+                "stepDetail":"Rmoce the backbone from the rib roasts with meat saw or sharp knife."
+            },
+            {
+                "step":"Tie the Rib",
+                "stepDetail":"The boneless rib roast can then be rolled and tied before its roasted"
+            },
+            {
+                "step":"You are done!",
+                "stepDetail":"Many cuts of beef purchased at a food store or specialty meat market are ready to cook, but some cuts may need additional trimming or boning before they can be cooked.\n Now that you're done, be sure to wash up thoroughly and use disinfecting soap!"
+            }
+        ],
+        "beefPowder":[
+            {
+                "step":"Remove the Backbone",
+                "stepDetail":"Rmoce the backbone from the rib roasts with meat saw or sharp knife."
+            },
+            {
+                "step":"Tie the Rib",
+                "stepDetail":"The boneless rib roast can then be rolled and tied before its roasted"
+            },
+            {
+                "step":"You are done!",
+                "stepDetail":"Many cuts of beef purchased at a food store or specialty meat market are ready to cook, but some cuts may need additional trimming or boning before they can be cooked.\n Now that you're done, be sure to wash up thoroughly and use disinfecting soap!"
+            }
+        ]
+        
+    }
+}

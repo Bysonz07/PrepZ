@@ -84,11 +84,16 @@ class ResultVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
 //MARK: End of Result VC-
 
 //MARK: - View Controller
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchResultsUpdating {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{ //, UISearchResultsUpdating {
     
     //Declare Outlet
+    var tapChosen = "Beef"
+    @IBAction func searchTapped(_ sender: Any) {
+        performSegue(withIdentifier: "homeToSearch", sender: nil)
+    }
+    @IBOutlet weak var searchOutlet: UIButton!
     @IBOutlet weak var tableView: UITableView!
-    let searchController = UISearchController(searchResultsController: ResultVC())
+//    let searchController = UISearchController(searchResultsController: ResultVC())
     
     //Declare model
     var models = [Model]()
@@ -97,15 +102,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        searchOutlet.layer.cornerRadius = 9
         //Recently
         models.append(Model(imageName: "HOME_RIBFRENCHING"))
         models.append(Model(imageName: "BEEF_NoText"))
         models.append(Model(imageName: "FRUITS_NoText"))
         
-        //SearchController
-        searchController.searchResultsUpdater = self
-        navigationItem.searchController = searchController
+//        //SearchController
+//        searchController.searchResultsUpdater = self
+//        navigationItem.searchController = searchController
         
         //TableView
         tableView.register(ProductTableViewCell.nib(), forCellReuseIdentifier: ProductTableViewCell.identifier)
@@ -178,13 +183,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     //MARK: End of Table -
     
-    //MARK: - SearchBarController
-    func updateSearchResults(for searchController: UISearchController) {
-        //FIXME: The tableview doesn't preload
-        guard let text = searchController.searchBar.text else { return  }
-        print(text)
-    }
-    
+//    //MARK: - SearchBarController
+//    func updateSearchResults(for searchController: UISearchController) {
+//        //FIXME: The tableview doesn't preload
+//        guard let text = searchController.searchBar.text else { return  }
+//        print(text)
+//    }
+//
+   
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "homeToIngredient", sender: nil)
         tableView.deselectRow(at: indexPath, animated: true)

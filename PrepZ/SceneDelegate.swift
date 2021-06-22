@@ -16,18 +16,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        window?.rootViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
-           window?.makeKeyAndVisible()
-
-           DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-               let defaults = UserDefaults.standard
-            if defaults.value(forKey: "onBoarding") != nil {
-                self.window?.rootViewController = UIStoryboard(name: "OnBoarding", bundle: nil).instantiateInitialViewController()
-            } else {
-                self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
-            }
-           
-           }
+//        window?.rootViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
+//           window?.makeKeyAndVisible()
+//
+//           DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+//               let defaults = UserDefaults.standard
+//            if defaults.value(forKey: "onBoarding") != nil {
+//                self.window?.rootViewController = UIStoryboard(name: "OnBoarding", bundle: nil).instantiateInitialViewController()
+//            } else {
+//                self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+//            }
+//           
+//           }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

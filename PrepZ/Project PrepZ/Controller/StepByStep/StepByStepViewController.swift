@@ -17,6 +17,8 @@ class StepByStepViewController: UIViewController{
     @IBOutlet weak var collectionView: UICollectionView!
 
     @IBOutlet weak var noteOutlet: UILabel!
+    @IBOutlet weak var noteOutletBg: UILabel!
+    @IBOutlet weak var noteOutlet2: UILabel!
     private var player: AVQueuePlayer!
     private var playerLayer: AVPlayerLayer!
     private var playerItem: AVPlayerItem!
@@ -54,14 +56,18 @@ class StepByStepViewController: UIViewController{
         else if (currentPage == slides.count - 1) {
             nextButton.isEnabled = false
             doneButton.isHidden = false
-            
+            noteOutlet.isHidden = true
+            noteOutlet2.isHidden = true
+            noteOutletBg.isHidden = true
             
         }
         else{
             doneButton.isHidden = true
             prevButton.isEnabled = true
             nextButton.isEnabled = true
-           
+            noteOutlet.isHidden = true
+            noteOutlet2.isHidden = true
+            noteOutletBg.isHidden = true
         }
     }
 
