@@ -29,10 +29,15 @@ class VoiceViewController: UIViewController {
 //        dismiss(animated: true, completion: nil)
 //
         let ac = UIAlertController(title: "PrepZ", message: "Voice command turned on", preferredStyle: .alert)
-        ac.addAction(UIAlertAction(title: "OK", style: .default))
+        
+        let submitButton = UIAlertAction(title: "Add", style: .default) { (action) in
+            self.navigationController!.popToRootViewController(animated: true)
+            
+        }
+        ac.addAction(submitButton)
         present(ac, animated: true)
         navigationController?.popViewController(animated: true)
-        dismiss(animated: true, completion: nil)
+        
     }
     
     @IBAction func cancelTapped(_ sender: Any) {

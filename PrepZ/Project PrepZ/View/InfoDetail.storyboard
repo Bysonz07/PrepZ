@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LYs-CE-ZfH">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,23 +13,23 @@
             <objects>
                 <viewController storyboardIdentifier="PreviewViewController" id="LYs-CE-ZfH" customClass="PreviewViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7hc-8c-Me4">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CHIOPPING_BOK_CHOY" translatesAutoresizingMaskIntoConstraints="NO" id="gYt-YA-k4l">
-                                <rect key="frame" x="0.0" y="44" width="390" height="260"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="260"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="sxx-9E-CG5"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chopping Bok Choy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lkz-96-H3d">
-                                <rect key="frame" x="0.0" y="331" width="390" height="36"/>
+                                <rect key="frame" x="0.0" y="287" width="414" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHI-IR-pag">
-                                <rect key="frame" x="0.0" y="395" width="390" height="60.333333333333314"/>
+                                <rect key="frame" x="0.0" y="351" width="414" height="60.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigate with your voice by turning on  &quot;Hey,Prepzi...&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgX-Qg-fSh">
                                         <rect key="frame" x="21" y="14.999999999999996" width="295" height="40.666666666666657"/>
@@ -61,7 +61,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3la-JI-dYJ">
-                                <rect key="frame" x="17" y="488.33333333333331" width="120" height="22"/>
+                                <rect key="frame" x="17" y="444.33333333333331" width="120" height="22"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title=" 30 Minutes" image="timer" catalog="system">
@@ -70,13 +70,13 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will need:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAc-XX-y0M">
-                                <rect key="frame" x="18" y="530.33333333333337" width="118" height="22"/>
+                                <rect key="frame" x="18" y="486.33333333333331" width="118" height="22"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. A sharp knife 2. A clean, non-slip cutting board 3. A bok choy" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NI-ee-Gvq">
-                                <rect key="frame" x="16" y="551.33333333333337" width="358" height="95"/>
+                                <rect key="frame" x="20" y="507.33333333333326" width="374" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="Ghi-B8-G5x"/>
                                 </constraints>
@@ -85,7 +85,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAm-Hc-ZmS">
-                                <rect key="frame" x="75" y="752" width="240" height="30"/>
+                                <rect key="frame" x="75" y="678" width="264" height="30"/>
                                 <color key="backgroundColor" red="0.79607843140000001" green="0.56078431370000004" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Start Preparing">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -146,7 +146,7 @@
             <objects>
                 <viewController id="ILP-vO-WGQ" customClass="VoiceViewController" customModule="PrepZ" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l3v-ei-mAg">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mic.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="efI-yH-ajW">
@@ -154,7 +154,7 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voice Command" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zV7-hY-iEQ">
-                                <rect key="frame" x="93" y="245" width="205" height="36"/>
+                                <rect key="frame" x="93" y="245" width="229" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -166,7 +166,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JDC-Co-9W5">
-                                <rect key="frame" x="20" y="357" width="301" height="128"/>
+                                <rect key="frame" x="20" y="357" width="325" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Next" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuM-Pw-atg">
                                         <rect key="frame" x="8" y="8" width="39" height="21"/>
@@ -200,7 +200,7 @@
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.85098039219999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1XR-Le-xHD">
-                                <rect key="frame" x="20" y="493" width="216" height="76"/>
+                                <rect key="frame" x="20" y="493" width="240" height="36"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You could be saying..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUn-B2-Snj">
                                         <rect key="frame" x="0.0" y="23" width="206" height="27"/>
@@ -236,7 +236,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by turning on voice command, your voice will be sent to Prepz" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5e-Wi-6xT">
-                                <rect key="frame" x="65" y="596" width="261" height="52"/>
+                                <rect key="frame" x="65" y="556" width="285" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="tE6-S4-6Qg"/>
                                 </constraints>
@@ -245,7 +245,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COv-G9-xAZ">
-                                <rect key="frame" x="75" y="656" width="240" height="30"/>
+                                <rect key="frame" x="75" y="616" width="264" height="30"/>
                                 <color key="backgroundColor" red="0.79607843140000001" green="0.56078431370000004" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Turn on Voice Command">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

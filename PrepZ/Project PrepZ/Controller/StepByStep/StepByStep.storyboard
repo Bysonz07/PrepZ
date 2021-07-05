@@ -148,9 +148,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EWH-qh-q4E">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWH-qh-q4E">
                                 <rect key="frame" x="0.0" y="88" width="390" height="756"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gvZ-gI-FU8">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
@@ -232,9 +231,8 @@
                                     <action selector="prevTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FAR-jE-E5O"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjR-cR-cdX">
-                                <rect key="frame" x="125" y="715" width="140" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjR-cR-cdX">
+                                <rect key="frame" x="125" y="722" width="140" height="30"/>
                                 <color key="backgroundColor" red="0.79470306629999998" green="0.56189358229999997" blue="0.49018019439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Done">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -248,25 +246,25 @@
                                     <segue destination="4JC-oN-YrQ" kind="unwind" unwindAction="unwind:" id="WeC-HZ-vpZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="  Note :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOK-Ru-jG3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Note :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOK-Ru-jG3">
                                 <rect key="frame" x="38" y="581" width="314" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.85098039219999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1c-Ey-zRG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1c-Ey-zRG">
                                 <rect key="frame" x="38" y="600" width="311" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.85098039219999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="dg7-qL-kx5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Greens are pron to germs. Don’t soak them  in a bowl of water. Instead, clean them with  running water. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6if-L1-boF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greens are pron to germs. Don’t soak them  in a bowl of water. Instead, clean them with  running water. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6if-L1-boF">
                                 <rect key="frame" x="43" y="600" width="309" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.85098039219999999" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
@@ -292,6 +290,25 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cOK-Ru-jG3" firstAttribute="centerX" secondItem="EWH-qh-q4E" secondAttribute="centerX" id="9m9-DY-Zsh"/>
+                            <constraint firstItem="cOK-Ru-jG3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="38" id="B1t-fK-T7F"/>
+                            <constraint firstItem="cOK-Ru-jG3" firstAttribute="centerX" secondItem="AjR-cR-cdX" secondAttribute="centerX" id="EjT-vV-eHQ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="AjR-cR-cdX" secondAttribute="trailing" constant="125" id="EkK-mn-93f"/>
+                            <constraint firstItem="6if-L1-boF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="43" id="JJc-Hi-sf8"/>
+                            <constraint firstItem="d1c-Ey-zRG" firstAttribute="bottom" secondItem="6if-L1-boF" secondAttribute="bottom" id="Orl-QY-pOH"/>
+                            <constraint firstAttribute="bottom" secondItem="cOK-Ru-jG3" secondAttribute="bottom" constant="242" id="SkI-Dm-00S"/>
+                            <constraint firstItem="AjR-cR-cdX" firstAttribute="top" secondItem="6if-L1-boF" secondAttribute="bottom" constant="47" id="Ttg-0C-7OJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="d1c-Ey-zRG" secondAttribute="trailing" constant="41" id="Z7C-Wq-QuH"/>
+                            <constraint firstItem="cOK-Ru-jG3" firstAttribute="trailing" secondItem="6if-L1-boF" secondAttribute="trailing" id="cBh-67-r21"/>
+                            <constraint firstItem="EWH-qh-q4E" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="44" id="cta-Mc-69a"/>
+                            <constraint firstItem="AjR-cR-cdX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="125" id="d4X-1R-Vei"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="EWH-qh-q4E" secondAttribute="bottom" constant="-34" id="iMf-Qn-AVO"/>
+                            <constraint firstItem="d1c-Ey-zRG" firstAttribute="top" secondItem="6if-L1-boF" secondAttribute="top" id="kRE-Qk-4JN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="AjR-cR-cdX" secondAttribute="bottom" constant="58" id="mxp-Gs-0gg"/>
+                            <constraint firstItem="cOK-Ru-jG3" firstAttribute="leading" secondItem="d1c-Ey-zRG" secondAttribute="leading" id="ndc-Ll-FLc"/>
+                            <constraint firstItem="EWH-qh-q4E" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="yQs-7H-mH3"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="f3a-wi-iRF"/>
